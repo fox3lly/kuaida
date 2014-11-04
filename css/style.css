@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* 初始化环境 */
+select,input{vertical-align:middle;}
+a{color:#009;text-decoration:underline;}
+a:visited{color:#800080;text-decoration:underline;}
+a:hover{color:#f00;text-decoration:underline;}
+
+.Banner{width:950px;margin:5px auto 0;}
+/* 考虑删除 */
+/*.NavMenu{background:#eee;border:1px solid #ddd;height:25px;line-height:25px;padding:5px;text-align:center;margin-bottom:10px;}
+.NavMenu a:link,.NavMenu a:visited{color:#000;text-decoration:none;margin:0 5px;}
+.NavMenu a:hover{color:#f00;text-decoration:underline;}*/
+
+/* ---------- 全局公用样式 begin ---------- */
+.NavMenu{border-width:0px;padding:0px;}
+.w_title a:link,.w_title a:visited{color:#009;text-decoration:none;}
+.w_title a:hover{color:#009;text-decoration:underline;}
+.sp_h10{height:10px;overflow:hidden;clear:both;}
+.c_memo{color:#333;}
+img{border-color:#87aecf;border-style:solid;}/* 图片默认边线颜色 */
+ body{background-position:center 0}          /*@asg 4.23.2013*/
+/* ---------- 全局公用样式 end ---------- */
+
+

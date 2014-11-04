@@ -1,0 +1,3799 @@
+{
+	"type": "template",
+	"styles": [{
+		"id": "5894396741364820731",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/stencil\/sysimages\/styleico\/style_00.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2008\/0414\/images\/banner.jpg",
+		"channel": "默认",
+		"color": "灰色"
+	}, {
+		"id": "5894396748558052094",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style01.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/stencil\/sysimages\/styleico\/style_01.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2008\/0414\/images01\/banner.jpg",
+		"channel": "视频",
+		"color": "蓝色"
+	}, {
+		"id": "5894396751603116800",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style02.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/stencil\/sysimages\/styleico\/style_02.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2008\/0414\/images02\/banner.jpg",
+		"channel": "博客",
+		"color": "蓝色"
+	}, {
+		"id": "5894396754690124546",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style03.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/stencil\/sysimages\/styleico\/style_03.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2008\/0414\/images03\/banner.jpg",
+		"channel": "女性",
+		"color": "粉红"
+	}, {
+		"id": "5894396759488408324",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style04.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/stencil\/sysimages\/styleico\/style_04.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2008\/0414\/images04\/banner.jpg",
+		"channel": "体育",
+		"color": "蓝色"
+	}, {
+		"id": "5894396762529278726",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style05.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/stencil\/sysimages\/styleico\/style_05.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2008\/0414\/images05\/banner.jpg",
+		"channel": "读书",
+		"color": "棕色"
+	}, {
+		"id": "5894396765599509256",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style06.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/stencil\/sysimages\/styleico\/style_06.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2008\/0414\/images06\/banner.jpg",
+		"channel": "育儿",
+		"color": "粉红"
+	}, {
+		"id": "5894396768682322698",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style07.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/stencil\/sysimages\/styleico\/style_07.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2008\/0414\/images07\/banner.jpg",
+		"channel": "娱乐",
+		"color": "蓝色"
+	}, {
+		"id": "5894396771727387403",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style08.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/stencil\/sysimages\/styleico\/style_08.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2008\/0414\/images08\/banner.jpg",
+		"channel": "娱乐",
+		"color": "黑色,橙黄"
+	}, {
+		"id": "5894396774785035021",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style09.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/stencil\/sysimages\/styleico\/style_09.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2008\/0414\/images09\/banner.jpg",
+		"channel": "财经",
+		"color": "蓝色"
+	}, {
+		"id": "5894396777834294031",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style10.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/stencil\/sysimages\/styleico\/style_10.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2008\/0414\/images10\/banner.jpg",
+		"channel": "博客",
+		"color": "蓝色,绿色"
+	}, {
+		"id": "5894396780870970129",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style11.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/stencil\/sysimages\/styleico\/style_11.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2008\/0414\/images11\/banner.jpg",
+		"channel": "科技",
+		"color": "黑色"
+	}, {
+		"id": "5894396783907646227",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style12.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/stencil\/sysimages\/styleico\/style_12.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2008\/0414\/images12\/banner.jpg",
+		"channel": "读书",
+		"color": "橙黄,黑色"
+	}, {
+		"id": "5894396786940128020",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style13.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/stencil\/sysimages\/styleico\/style_13.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2008\/0414\/images13\/banner.jpg",
+		"channel": "财经",
+		"color": "黑色"
+	}, {
+		"id": "5894396790148770582",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style14.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/stencil\/sysimages\/styleico\/style_14.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2008\/0414\/images14\/banner.jpg",
+		"channel": "科技",
+		"color": "蓝色"
+	}, {
+		"id": "5894396793189640984",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style15.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/stencil\/sysimages\/styleico\/style_15.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2008\/0414\/images15\/banner.jpg",
+		"channel": "体育",
+		"color": "红色"
+	}, {
+		"id": "5894396796238899994",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style16.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/stencil\/sysimages\/styleico\/style_16.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2008\/0414\/images16\/banner.jpg",
+		"channel": "女性",
+		"color": "棕色"
+	}, {
+		"id": "5894396799271381788",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style17.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/stencil\/sysimages\/styleico\/style_17.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2008\/0414\/images17\/banner.jpg",
+		"channel": "体育",
+		"color": "绿色,蓝色"
+	}, {
+		"id": "5894396802320640797",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style18.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/stencil\/sysimages\/styleico\/style_18.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2008\/0414\/images18\/banner.jpg",
+		"channel": "新闻",
+		"color": "红色"
+	}, {
+		"id": "5894396805369899807",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style19.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/stencil\/sysimages\/styleico\/style_19.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2008\/0414\/images19\/banner.jpg",
+		"channel": "科技",
+		"color": "红色"
+	}, {
+		"id": "5894396808414964513",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style20.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/stencil\/sysimages\/styleico\/style_20.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2008\/0414\/images20\/banner.jpg",
+		"channel": "新闻",
+		"color": "黑色,蓝色"
+	}, {
+		"id": "5894396811472612130",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style21.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/stencil\/sysimages\/styleico\/style_21.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2008\/0414\/images21\/banner.jpg",
+		"channel": "体育",
+		"color": "蓝色,橙黄"
+	}, {
+		"id": "5894396814513482532",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style22.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/stencil\/sysimages\/styleico\/style_22.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2008\/0414\/images22\/banner.jpg",
+		"channel": "视频",
+		"color": "蓝色"
+	}, {
+		"id": "5894396817558547238",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style23.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/stencil\/sysimages\/styleico\/style_23.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2008\/0414\/images23\/banner.jpg",
+		"channel": "体育",
+		"color": "绿色,黑色"
+	}, {
+		"id": "5894396820599417640",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style24.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/stencil\/sysimages\/styleico\/style_24.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2008\/0414\/images24\/banner.jpg",
+		"channel": "新闻",
+		"color": "蓝色"
+	}, {
+		"id": "5894396823636093737",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style25.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/stencil\/sysimages\/styleico\/style_25.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2008\/0414\/images25\/banner.jpg",
+		"channel": "新闻",
+		"color": "蓝色"
+	}, {
+		"id": "5894396826676964139",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style26.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/stencil\/sysimages\/styleico\/style_26.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2008\/0414\/images26\/banner.jpg",
+		"channel": "新闻",
+		"color": "黑色,灰色"
+	}, {
+		"id": "5894396829722028845",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style27.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/stencil\/sysimages\/styleico\/style_27.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2008\/0414\/images27\/banner.jpg",
+		"channel": "星座",
+		"color": "蓝色"
+	}, {
+		"id": "5894396832762899247",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style28.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/stencil\/sysimages\/styleico\/style_28.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2008\/0414\/images28\/banner.jpg",
+		"channel": "星座",
+		"color": "橙黄"
+	}, {
+		"id": "5894396835803769649",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style29.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/stencil\/sysimages\/styleico\/style_29.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2008\/0414\/images29\/banner.jpg",
+		"channel": "体育",
+		"color": "蓝色"
+	}, {
+		"id": "5894396838848834354",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style30.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/stencil\/sysimages\/styleico\/style_30.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2008\/0414\/images30\/banner.jpg",
+		"channel": "新闻",
+		"color": "橙黄"
+	}, {
+		"id": "5894396841889704756",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style31.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/stencil\/sysimages\/styleico\/style_31.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2008\/0414\/images31\/banner.jpg",
+		"channel": "体育",
+		"color": "绿色"
+	}, {
+		"id": "5894396844934769462",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style32.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/stencil\/sysimages\/styleico\/style_32.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2008\/0414\/images32\/banner.jpg",
+		"channel": "新闻",
+		"color": "蓝色"
+	}, {
+		"id": "5894396847984028472",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style33.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/stencil\/sysimages\/styleico\/style_33.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2008\/0414\/images33\/banner.jpg",
+		"channel": "女性",
+		"color": "粉红"
+	}, {
+		"id": "5894396851037481786",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style34.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/stencil\/sysimages\/styleico\/style_34.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2008\/0414\/images34\/banner.jpg",
+		"channel": "女性",
+		"color": "粉红"
+	}, {
+		"id": "5894396854380342076",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style35.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/stencil\/sysimages\/styleico\/style_35.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2008\/0414\/images35\/banner.jpg",
+		"channel": "财经",
+		"color": "蓝色"
+	}, {
+		"id": "5894396857429601085",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style36.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/stencil\/sysimages\/styleico\/style_36.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2008\/0414\/images36\/banner.jpg",
+		"channel": "体育",
+		"color": "蓝色"
+	}, {
+		"id": "5894396860474665791",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style37.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/stencil\/sysimages\/styleico\/style_37.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2008\/0414\/images37\/banner.jpg",
+		"channel": "视频",
+		"color": "蓝色,黑色"
+	}, {
+		"id": "5894396863553284929",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style38.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/stencil\/sysimages\/styleico\/style_38.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2008\/0414\/images38\/banner.jpg",
+		"channel": "体育",
+		"color": "红色,橙黄"
+	}, {
+		"id": "5894396866602543939",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style39.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/stencil\/sysimages\/styleico\/style_39.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2008\/0414\/images39\/banner.jpg",
+		"channel": "新闻",
+		"color": "蓝色"
+	}, {
+		"id": "5894396869668580165",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style40.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/stencil\/sysimages\/styleico\/style_40.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2008\/0414\/images40\/banner.jpg",
+		"channel": "娱乐",
+		"color": "绿色"
+	}, {
+		"id": "5894396872730422086",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style41.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/stencil\/sysimages\/styleico\/style_41.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2008\/0414\/images41\/banner.jpg",
+		"channel": "育儿",
+		"color": "粉红"
+	}, {
+		"id": "5894396875771292488",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style42.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/stencil\/sysimages\/styleico\/style_42.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2008\/0414\/images42\/banner.jpg",
+		"channel": "新闻",
+		"color": "白色"
+	}, {
+		"id": "5894396878816357194",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style43.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/stencil\/sysimages\/styleico\/style_43.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2008\/0414\/images43\/banner.jpg",
+		"channel": "奥运",
+		"color": "蓝色"
+	}, {
+		"id": "5894396881869810508",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style44.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/stencil\/sysimages\/styleico\/style_44.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2008\/0414\/images44\/banner.jpg",
+		"channel": "奥运",
+		"color": "绿色"
+	}, {
+		"id": "5894396884914875214",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style45.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/stencil\/sysimages\/styleico\/style_45.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2008\/0414\/images45\/banner.jpg",
+		"channel": "奥运",
+		"color": "灰色"
+	}, {
+		"id": "5894396887959939919",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style46.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/stencil\/sysimages\/styleico\/style_46.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2008\/0414\/images43_1\/banner.jpg",
+		"channel": "奥运",
+		"color": "红色"
+	}, {
+		"id": "5894396891009198929",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style47.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/stencil\/sysimages\/styleico\/style_47.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2008\/0414\/images47\/banner.jpg",
+		"channel": "颜色系列",
+		"color": "蓝色"
+	}, {
+		"id": "5894396894050069331",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style48.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/stencil\/sysimages\/styleico\/style_48.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2008\/0414\/images48\/banner.jpg",
+		"channel": "颜色系列",
+		"color": "绿色"
+	}, {
+		"id": "5894396897095134037",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style49.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/stencil\/sysimages\/styleico\/style_49.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2008\/0414\/images49\/banner.jpg",
+		"channel": "颜色系列",
+		"color": "蓝色"
+	}, {
+		"id": "5894396900140198742",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style50.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/stencil\/sysimages\/styleico\/style_50.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2008\/0414\/images50\/banner.jpg",
+		"channel": "节日系列",
+		"color": "红色"
+	}, {
+		"id": "5894396903189457752",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style51.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/stencil\/sysimages\/styleico\/style_51.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2008\/0414\/images51\/banner.jpg",
+		"channel": "颜色系列",
+		"color": "棕色"
+	}, {
+		"id": "5894396906234522458",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style52.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/stencil\/sysimages\/styleico\/style_52.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2008\/0414\/images52\/banner.jpg",
+		"channel": "新闻",
+		"color": "蓝色"
+	}, {
+		"id": "5894396909271198556",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style53.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/stencil\/sysimages\/styleico\/style_53.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2008\/0414\/images53\/banner.jpg",
+		"channel": "节日系列",
+		"color": "粉红"
+	}, {
+		"id": "5894396912320457565",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style54.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/stencil\/sysimages\/styleico\/style_54.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2008\/0414\/images54\/banner.jpg",
+		"channel": "节日系列",
+		"color": "蓝色"
+	}, {
+		"id": "5894396915365522271",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style55.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/stencil\/sysimages\/styleico\/style_55.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2008\/0414\/images55\/banner.jpg",
+		"channel": "节日系列",
+		"color": "粉红"
+	}, {
+		"id": "5894396918486084449",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style56.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/stencil\/sysimages\/styleico\/style_56.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2008\/0414\/images56\/banner.jpg",
+		"channel": "节日系列",
+		"color": "绿色,黄色"
+	}, {
+		"id": "5894396921531149155",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style57.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/stencil\/sysimages\/styleico\/style_57.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2008\/0414\/images57\/banner.jpg",
+		"channel": "颜色系列",
+		"color": "红色"
+	}, {
+		"id": "5894396924584602469",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style58.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/stencil\/sysimages\/styleico\/style_58.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2008\/0414\/images58\/banner.jpg",
+		"channel": "颜色系列",
+		"color": "黄色"
+	}, {
+		"id": "5894396927642250086",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style59.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/stencil\/sysimages\/styleico\/style_59.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2008\/0414\/images59\/banner.jpg",
+		"channel": "颜色系列",
+		"color": "蓝色"
+	}, {
+		"id": "5894396930687314792",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style60.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/stencil\/sysimages\/styleico\/style_60.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2008\/0414\/images60\/banner.jpg",
+		"channel": "颜色系列",
+		"color": "蓝色"
+	}, {
+		"id": "5894396933749156714",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style61.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/stencil\/sysimages\/styleico\/style_61.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2008\/0414\/images61\/banner.jpg",
+		"channel": "颜色系列",
+		"color": "灰色"
+	}, {
+		"id": "5894396936798415723",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style62.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/stencil\/sysimages\/styleico\/style_62.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2008\/0414\/images62\/banner.jpg",
+		"channel": "颜色系列",
+		"color": "灰色,蓝色"
+	}, {
+		"id": "5894396939847674733",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style63.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/stencil\/sysimages\/styleico\/style_63.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2008\/0414\/images63\/banner.jpg",
+		"channel": "新闻",
+		"color": "黄色"
+	}, {
+		"id": "5894396942909516655",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style64.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/stencil\/sysimages\/styleico\/style_64.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2008\/0414\/images64\/banner.jpg",
+		"channel": "财经",
+		"color": "黄色,橙黄"
+	}, {
+		"id": "5894396945996524401",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style65.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/stencil\/sysimages\/styleico\/style_65.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/2009\/0414\/images65\/banner.jpg",
+		"channel": "博鳌论坛",
+		"color": "蓝色"
+	}, {
+		"id": "5894396949108697970",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style66.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/deco\/2009\/0430\/style66\/style_66.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2009\/0430\/style66\/banner.jpg",
+		"channel": "颜色系列",
+		"color": "绿色"
+	}, {
+		"id": "5894396952162151284",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style67.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/deco\/2009\/0522\/images67\/style_67.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2009\/0522\/images67\/banner.jpg",
+		"channel": "科技",
+		"color": "灰色,蓝色"
+	}, {
+		"id": "5894396955454679926",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style68.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/2009\/0626\/images68\/style_68.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/2009\/0626\/images68\/banner.jpg",
+		"channel": "娱乐",
+		"color": "棕色"
+	}, {
+		"id": "5894396958516521848",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style69.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/2009\/1123\/style69\/style_69.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/2009\/1123\/style69\/banner.jpg",
+		"channel": "宽标题系列",
+		"color": "蓝色"
+	}, {
+		"id": "5894396961578363769",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style70.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/2009\/1123\/style70\/style_70.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/2009\/1123\/style70\/banner.jpg",
+		"channel": "宽标题系列",
+		"color": "黑色,灰色"
+	}, {
+		"id": "5894396964640205691",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style71.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/2009\/1123\/style71\/style_71.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/2009\/1123\/style71\/banner.jpg",
+		"channel": "宽标题系列",
+		"color": "红色,黄色"
+	}, {
+		"id": "5894396969165859711",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style72.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/2009\/1123\/style72\/style_72.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/2009\/1123\/style72\/banner.jpg",
+		"channel": "宽标题系列",
+		"color": "黑色,灰色"
+	}, {
+		"id": "5894396972210924416",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style73.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/2009\/1123\/style73\/style_73.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/2009\/1123\/style73\/banner.jpg",
+		"channel": "宽标题系列",
+		"color": "蓝色"
+	}, {
+		"id": "5894396975251794818",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style74.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/2009\/1123\/style74\/style_74.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/2009\/1123\/style74\/banner.jpg",
+		"channel": "宽标题系列",
+		"color": "蓝色,灰色"
+	}, {
+		"id": "5894396978296859524",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style75.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/2009\/1209\/style75\/style_75.gif",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/2009\/1209\/style75\/banner.jpg",
+		"channel": "宽标题系列",
+		"color": "蓝色"
+	}, {
+		"id": "5894396981341924230",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style76.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/deco\/2009\/1228\/ztimg\/images01\/view.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2009\/1228\/ztimg\/images01\/banner.jpg",
+		"channel": "财经",
+		"color": "土黄"
+	}, {
+		"id": "5894396984391183239",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style77.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/deco\/2009\/1228\/ztimg\/images02\/view.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2009\/1228\/ztimg\/images02\/banner.jpg",
+		"channel": "财经",
+		"color": "蓝色"
+	}, {
+		"id": "5894396987440442249",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style78.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/deco\/2009\/1228\/ztimg\/images03\/view.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2009\/1228\/ztimg\/images03\/banner.jpg",
+		"channel": "财经",
+		"color": "红色"
+	}, {
+		"id": "5894396990523255691",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style79.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/deco\/2010\/0108\/ztimg\/view.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2010\/0108\/ztimg\/banner.jpg",
+		"channel": "财经",
+		"color": "浅蓝色"
+	}, {
+		"id": "5894396993580903309",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style82.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/deco\/2010\/0301\/style82\/style_82.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2010\/0301\/style82\/banner.jpg",
+		"channel": "宽标题系列",
+		"color": "红色"
+	}, {
+		"id": "5894396996642745231",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style83.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/deco\/2010\/1110\/style83\/style_83.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2010\/1110\/style83\/banner.jpg",
+		"channel": "财经",
+		"color": "紫色,红色"
+	}, {
+		"id": "5894396999696198544",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style84.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/deco\/2010\/1110\/style84\/style_84.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2010\/1110\/style84\/banner.jpg",
+		"channel": "体育",
+		"color": "黄色,橙色"
+	}, {
+		"id": "5894397002745457554",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style85.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/deco\/2010\/1129\/images85\/style_85.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2010\/1129\/images85\/banner.jpg",
+		"channel": "财经",
+		"color": "红色"
+	}, {
+		"id": "5894397005798910868",
+		"filepath": "http:\/\/news.sina.com.cn\/css\/stencil_v2\/style86.css",
+		"imgsrc": "http:\/\/www.sinaimg.cn\/dy\/deco\/2010\/1129\/images86\/style_86.jpg",
+		"banner": "http:\/\/www.sinaimg.cn\/dy\/deco\/2010\/1129\/images86\/banner.jpg",
+		"channel": "财经",
+		"color": "蓝色"
+	}],
+	"parts": [{
+		"_attributes": {
+			"id": 1,
+			"title": "横切01",
+			"row": 1,
+			"rowClass": "",
+			"style": [{
+				"name": "下间距",
+				"selector": "#[^repId]",
+				"property": "margin-bottom",
+				"value": "10px"
+			}]
+		},
+		"html": "<div class=\"partBox clearfix\"><div class=\"partCont p_r1\">[^p_row]<\/div><\/div>"
+	}, {
+		"_attributes": {
+			"id": 2,
+			"title": "横切02",
+			"row": 2,
+			"rowClass": ["p_left", "p_right"],
+			"style": [{
+				"name": "下间距",
+				"selector": "#[^repId]",
+				"property": "margin-bottom",
+				"value": "10px"
+			}]
+		},
+		"html": "<div class=\"partBox clearfix\"><div class=\"partCont p_r2_05\">[^p_row]<\/div><\/div>"
+	}, {
+		"_attributes": {
+			"id": 3,
+			"title": "横切03",
+			"row": 3,
+			"rowClass": ["p_left", "p_middle", "p_right"],
+			"style": [{
+				"name": "下间距",
+				"selector": "#[^repId]",
+				"property": "margin-bottom",
+				"value": "10px"
+			}]
+		},
+		"html": "<div class=\"partBox clearfix\"><div class=\"partCont p_r3_01\">[^p_row]<\/div><\/div>"
+	}],
+	"rows": [{
+		"_attributes": {
+			"id": 1,
+			"title": "列01",
+			"style": [{
+				"name": "下间距",
+				"selector": "#[^repId]",
+				"property": "margin-bottom",
+				"value": "10px"
+			}, {
+				"name": "宽度",
+				"selector": "#[^repId]",
+				"property": "width",
+				"value": "默认"
+			}]
+		},
+		"html": ""
+	}],
+	"blocks": [{
+		"_attributes": {
+			"id": 1,
+			"title": "窗口1",
+			"btitle": "标题栏",
+			"bmore": "<a href=\"#\">更多>><\/a>",
+			"style": [{
+				"name": "内填充",
+				"selector": "#[^repId] .w_cont_box",
+				"property": "padding",
+				"value": "0px"
+			}, {
+				"name": "内容高度",
+				"selector": "#[^repId] .w_cont_box",
+				"property": "height",
+				"value": "auto"
+			}, {
+				"name": "内容溢出",
+				"selector": "#[^repId] .w_cont_box",
+				"property": "overflow",
+				"value": ["默认:inherit", "隐藏:hidden", "滚动:auto"]
+			}, {
+				"name": "窗口底边",
+				"selector": "#[^repId] .w_bot",
+				"property": "display",
+				"value": ["显示:block", "隐藏:none"]
+			}, {
+				"name": "标题背景图",
+				"selector": "#[^repId] .w_title",
+				"property": "background-image",
+				"value": "默认"
+			}, {
+				"name": "标题背景色",
+				"selector": "#[^repId] .w_title",
+				"property": "background-color",
+				"value": "默认"
+			}, {
+				"name": "标题背景重复方式",
+				"selector": "#[^repId] .w_title",
+				"property": "background-repeat",
+				"value": ["默认:默认", "不重复:no-repeat", "重复:repeat", "横向重复:repeat-x", "纵向重复:repeat-y"]
+			}, {
+				"name": "标题背景位置",
+				"selector": "#[^repId] .w_title",
+				"property": "background-position",
+				"value": "默认"
+			}, {
+				"name": "背景",
+				"selector": "#[^repId]",
+				"property": "background",
+				"value": "默认"
+			}]
+		},
+		"html": "<div class=\"w_01\"><h2 class=\"w_title\"><span class=\"w_name\">[^w_title]<\/span><span class=\"w_more\">[^w_more]<\/span><\/h2><div class=\"w_cont\"><div class=\"w_cont_bg\"><div class=\"w_cont_box\">[^w_content]<\/div><\/div><\/div><div class=\"w_bot\"><div class=\"w_bot_bg\"><\/div><\/div><\/div>"
+	}, {
+		"_attributes": {
+			"id": 2,
+			"title": "窗口2",
+			"btitle": "标题栏",
+			"bmore": "<a href=\"#\">更多>><\/a>",
+			"style": [{
+				"name": "内填充",
+				"selector": "#[^repId] .w_cont_box",
+				"property": "padding",
+				"value": "0px"
+			}, {
+				"name": "内容高度",
+				"selector": "#[^repId] .w_cont_box",
+				"property": "height",
+				"value": "auto"
+			}, {
+				"name": "内容溢出",
+				"selector": "#[^repId] .w_cont_box",
+				"property": "overflow",
+				"value": ["默认:inherit", "隐藏:hidden", "滚动:auto"]
+			}, {
+				"name": "窗口底边",
+				"selector": "#[^repId] .w_bot",
+				"property": "display",
+				"value": ["显示:block", "隐藏:none"]
+			}, {
+				"name": "标题背景图",
+				"selector": "#[^repId] .w_title",
+				"property": "background-image",
+				"value": "默认"
+			}, {
+				"name": "标题背景色",
+				"selector": "#[^repId] .w_title",
+				"property": "background-color",
+				"value": "默认"
+			}, {
+				"name": "标题背景重复方式",
+				"selector": "#[^repId] .w_title",
+				"property": "background-repeat",
+				"value": ["默认:默认", "不重复:no-repeat", "重复:repeat", "横向重复:repeat-x", "纵向重复:repeat-y"]
+			}, {
+				"name": "标题背景位置",
+				"selector": "#[^repId] .w_title",
+				"property": "background-position",
+				"value": "默认"
+			}, {
+				"name": "背景",
+				"selector": "#[^repId]",
+				"property": "background",
+				"value": "默认"
+			}]
+		},
+		"html": "<div class=\"w_02\"><h2 class=\"w_title\"><span class=\"w_name\">[^w_title]<\/span><span class=\"w_more\">[^w_more]<\/span><\/h2><div class=\"w_cont\"><div class=\"w_cont_bg\"><div class=\"w_cont_box\">[^w_content]<\/div><\/div><\/div><div class=\"w_bot\"><div class=\"w_bot_bg\"><\/div><\/div><\/div>"
+	}, {
+		"_attributes": {
+			"id": 3,
+			"title": "窗口3",
+			"btitle": "标题栏",
+			"bmore": "<a href=\"#\">更多>><\/a>",
+			"style": [{
+				"name": "内填充",
+				"selector": "#[^repId] .w_cont_box",
+				"property": "padding",
+				"value": "0px"
+			}, {
+				"name": "内容高度",
+				"selector": "#[^repId] .w_cont_box",
+				"property": "height",
+				"value": "auto"
+			}, {
+				"name": "内容溢出",
+				"selector": "#[^repId] .w_cont_box",
+				"property": "overflow",
+				"value": ["默认:inherit", "隐藏:hidden", "滚动:auto"]
+			}, {
+				"name": "窗口底边",
+				"selector": "#[^repId] .w_bot",
+				"property": "display",
+				"value": ["显示:block", "隐藏:none"]
+			}, {
+				"name": "背景",
+				"selector": "#[^repId]",
+				"property": "background",
+				"value": "默认"
+			}]
+		},
+		"html": "<div class=\"w_05\">	<h2 class=\"w_title\">		<span class=\"w_name\">[^w_title]<\/span>		<span class=\"w_more\">[^w_more]<\/span>	<\/h2>	<div class=\"w_cont\"><div class=\"w_cont_bg\"><div class=\"w_cont_box\">[^w_content]<\/div><\/div><\/div>	<div class=\"w_bot\"><div class=\"w_bot_bg\"><\/div><\/div><\/div>"
+	}, {
+		"_attributes": {
+			"id": 4,
+			"title": "窗口3",
+			"btitle": "标题栏",
+			"bmore": "<a href=\"#\">更多>><\/a>",
+			"style": [{
+				"name": "内填充",
+				"selector": "#[^repId] .w_cont_box",
+				"property": "padding",
+				"value": "0px"
+			}, {
+				"name": "内容高度",
+				"selector": "#[^repId] .w_cont_box",
+				"property": "height",
+				"value": "auto"
+			}, {
+				"name": "内容溢出",
+				"selector": "#[^repId] .w_cont_box",
+				"property": "overflow",
+				"value": ["默认:inherit", "隐藏:hidden", "滚动:auto"]
+			}, {
+				"name": "窗口底边",
+				"selector": "#[^repId] .w_bot",
+				"property": "display",
+				"value": ["显示:block", "隐藏:none"]
+			}, {
+				"name": "背景",
+				"selector": "#[^repId]",
+				"property": "background",
+				"value": "默认"
+			}]
+		},
+		"html": "<div class=\"w_07\"><div class=\"w_cont\"><div class=\"w_cont_bg\"><div class=\"w_cont_box\">[^w_content]<\/div><\/div><\/div>	<div class=\"w_bot\"><div class=\"w_bot_bg\"><\/div><\/div><\/div>"
+	}, {
+		"_attributes": {
+			"id": 5,
+			"title": "无边框无填充窗口",
+			"btitle": "标题栏",
+			"bmore": "<a href=\"#\">更多>><\/a>",
+			"style": [{
+				"name": "内填充",
+				"selector": "#[^repId] .w_cont_box",
+				"property": "padding",
+				"value": "0"
+			}, {
+				"name": "内容高度",
+				"selector": "#[^repId] .w_cont_box",
+				"property": "height",
+				"value": "auto"
+			}, {
+				"name": "内容溢出",
+				"selector": "#[^repId] .w_cont_box",
+				"property": "overflow",
+				"value": ["默认:inherit", "隐藏:hidden", "滚动:auto"]
+			}, {
+				"name": "窗口底边",
+				"selector": "#[^repId] .w_bot",
+				"property": "display",
+				"value": ["显示:block", "隐藏:none"]
+			}, {
+				"name": "背景",
+				"selector": "#[^repId]",
+				"property": "background",
+				"value": "默认"
+			}, {
+				"name": "清除浮动",
+				"selector": "#[^repId] .w_cont_box div",
+				"property": "clear",
+				"value": ["both:both", "none:none"]
+			}, {
+				"name": "浮动",
+				"selector": "#[^repId] .w_cont_box div",
+				"property": "float",
+				"value": ["不浮动:none", "居左:left", "居右:right"]
+			}]
+		},
+		"html": "<div class=\"w_08\"><div class=\"w_cont\"><div class=\"w_cont_bg\"><div class=\"w_cont_box\">[^w_content]<\/div><\/div><\/div>	<div class=\"w_bot\"><div class=\"w_bot_bg\"><\/div><\/div><\/div>"
+	}, {
+		"_attributes": {
+			"id": 6,
+			"title": "栏目头图尾图窗口",
+			"btitle": "楼层导航",
+			"bmore": "<a href=\"#\">更多>><\/a>",
+			"style": [{
+				"name": "标题背景间距",
+				"selector": "#[^repId] .jj_w_title",
+				"property": "margin",
+				"value": "0px"
+			}, {
+				"name": "标题间距margin",
+				"selector": "#[^repId] h2 .w_name",
+				"property": "margin",
+				"value": "默认"
+			}, {
+				"name": "更多间距margin",
+				"selector": "#[^repId] h2 .w_more",
+				"property": "margin",
+				"value": "默认"
+			}, {
+				"name": "更多颜色",
+				"selector": "#[^repId] h2 .w_more a",
+				"property": "color",
+				"value": "默认"
+			}, {
+				"name": "是否显示标题",
+				"selector": "#[^repId] h2",
+				"property": "text-indent",
+				"value": ["显示:0", "隐藏:-9999px"]
+			}, {
+				"name": "窗口间距margin",
+				"selector": "#[^repId] .jj_item",
+				"property": "margin",
+				"value": "0"
+			}, {
+				"name": "窗口背景",
+				"selector": "#[^repId] .jj_item",
+				"property": "background",
+				"value": "默认"
+			}, {
+				"name": "窗口背景颜色",
+				"selector": "#[^repId] .jj_item",
+				"property": "background-color",
+				"value": "默认"
+			}, {
+				"name": "标题背景",
+				"selector": "#[^repId] h2.w_title",
+				"property": "background",
+				"value": "默认"
+			}, {
+				"name": "标题背景颜色",
+				"selector": "#[^repId] h2.w_title",
+				"property": "background-color",
+				"value": "默认"
+			}, {
+				"name": "标题宽度",
+				"selector": "#[^repId] h2.w_title",
+				"property": "width",
+				"value": "默认"
+			}, {
+				"name": "标题高度",
+				"selector": "#[^repId] h2.w_title",
+				"property": "height",
+				"value": "51px"
+			}, {
+				"name": "标题字体大小",
+				"selector": "#[^repId] h2 .w_name",
+				"property": "font-size",
+				"value": "默认"
+			}, {
+				"name": "标题字体行高",
+				"selector": "#[^repId] h2 .w_name",
+				"property": "line-height",
+				"value": "默认"
+			}, {
+				"name": "标题字体颜色",
+				"selector": "#[^repId] h2 .w_name",
+				"property": "color",
+				"value": "默认"
+			}, {
+				"name": "标题字体粗细",
+				"selector": "#[^repId] h2 .w_name",
+				"property": "font-weight",
+				"value": ["正常:normal", "粗体:bold", "更粗:bolder"]
+			}, {
+				"name": "标题字体下划线",
+				"selector": "#[^repId] h2 .w_name",
+				"property": "text-decoration",
+				"value": ["有:underline", "无:none"]
+			}, {
+				"name": "内容填充padding",
+				"selector": "#[^repId] .w_cont_box",
+				"property": "padding",
+				"value": "0"
+			}, {
+				"name": "内容背景",
+				"selector": "#[^repId] .w_cont_box",
+				"property": "background",
+				"value": "默认"
+			}, {
+				"name": "内容宽度",
+				"selector": "#[^repId] .w_cont_box",
+				"property": "width",
+				"value": "auto"
+			}, {
+				"name": "内容高度",
+				"selector": "#[^repId] .w_cont_box",
+				"property": "height",
+				"value": "auto"
+			}, {
+				"name": "内容溢出",
+				"selector": "#[^repId] .w_cont_box",
+				"property": "overflow",
+				"value": ["默认:inherit", "隐藏:hidden", "滚动:auto"]
+			}, {
+				"name": "窗口底边",
+				"selector": "#[^repId] .item_bj",
+				"property": "display",
+				"value": ["显示:block", "隐藏:none"]
+			}, {
+				"name": "底边背景",
+				"selector": "#[^repId] .item_bj",
+				"property": "background",
+				"value": "默认"
+			}, {
+				"name": "底边背景颜色",
+				"selector": "#[^repId] .item_bj",
+				"property": "background-color",
+				"value": "默认"
+			}, {
+				"name": "底边宽度",
+				"selector": "#[^repId] .item_bj",
+				"property": "width",
+				"value": "默认"
+			}, {
+				"name": "底边高度",
+				"selector": "#[^repId] .item_bj",
+				"property": "height",
+				"value": "51px"
+			}, {
+				"name": "清除浮动",
+				"selector": "#[^repId] .w_cont_box div",
+				"property": "clear",
+				"value": ["both:both", "none:none"]
+			}, {
+				"name": "浮动",
+				"selector": "#[^repId] .w_cont_box div",
+				"property": "float",
+				"value": ["不浮动:none", "居左:left", "居右:right"]
+			}]
+		},
+		"html": "<div class=\"jj_item clearfix\"><h2 class=\"title1 w_title jj_w_title\"><span class=\"w_name\">[^w_title]<\/span><span class=\"w_more\">[^w_more]<\/span><\/h2><div class=\"w_cont_box \">[^w_content]<\/div><div class=\"item_bj\"><\/div><\/div>"
+	}, {
+		"_attributes": {
+			"id": 7,
+			"title": "楼层浮动窗口",
+			"btitle": "标题栏",
+			"bmore": "<a href=\"#\">更多>><\/a>",
+			"style": [{
+				"name": "窗口背景",
+				"selector": "#[^repId] .jj_fd",
+				"property": "background",
+				"value": "默认"
+			}, {
+				"name": "窗口背景颜色",
+				"selector": "#[^repId] .jj_fd",
+				"property": "background-color",
+				"value": "默认"
+			}, {
+				"name": "标题背景",
+				"selector": "#[^repId] .w_title",
+				"property": "background",
+				"value": "默认"
+			}, {
+				"name": "标题背景颜色",
+				"selector": "#[^repId] .w_title",
+				"property": "background-color",
+				"value": "默认"
+			}, {
+				"name": "标题宽度",
+				"selector": "#[^repId] .w_title",
+				"property": "width",
+				"value": "默认"
+			}, {
+				"name": "标题高度",
+				"selector": "#[^repId] .w_title",
+				"property": "height",
+				"value": "51px"
+			}, {
+				"name": "标题内填充padding",
+				"selector": "#[^repId] .w_title",
+				"property": "padding",
+				"value": "默认"
+			}, {
+				"name": "标题字体大小",
+				"selector": "#[^repId] .w_title",
+				"property": "font-size",
+				"value": "默认"
+			}, {
+				"name": "标题字体行高",
+				"selector": "#[^repId] .w_title",
+				"property": "line-height",
+				"value": "默认"
+			}, {
+				"name": "标题字体颜色",
+				"selector": "#[^repId] .w_title",
+				"property": "color",
+				"value": "默认"
+			}, {
+				"name": "标题字体粗细",
+				"selector": "#[^repId] .w_title",
+				"property": "font-weight",
+				"value": ["正常:normal", "粗体:bold", "更粗:bolder"]
+			}, {
+				"name": "字体下划线",
+				"selector": "#[^repId] .w_title",
+				"property": "text-decoration",
+				"value": ["有:underline", "无:none"]
+			}, {
+				"name": "内容填充padding",
+				"selector": "#[^repId] .w_cont_box",
+				"property": "padding",
+				"value": "0"
+			}, {
+				"name": "内容高度",
+				"selector": "#[^repId] .w_cont_box",
+				"property": "height",
+				"value": "auto"
+			}, {
+				"name": "内容溢出",
+				"selector": "#[^repId] .w_cont_box",
+				"property": "overflow",
+				"value": ["默认:inherit", "隐藏:hidden", "滚动:auto"]
+			}, {
+				"name": "窗口底边",
+				"selector": "#[^repId] .jj_fd_foot",
+				"property": "display",
+				"value": ["显示:block", "隐藏:none"]
+			}, {
+				"name": "底边背景",
+				"selector": "#[^repId] .jj_fd_foot",
+				"property": "background",
+				"value": "默认"
+			}, {
+				"name": "底边背景颜色",
+				"selector": "#[^repId] .jj_fd_foot",
+				"property": "background-color",
+				"value": "默认"
+			}, {
+				"name": "底边宽度",
+				"selector": "#[^repId] .jj_fd_foot",
+				"property": "width",
+				"value": "默认"
+			}, {
+				"name": "底边高度",
+				"selector": "#[^repId] .jj_fd_foot",
+				"property": "height",
+				"value": "51px"
+			}]
+		},
+		"html": "<div id=\"LeftPop\" class=\"jj_fd\"><div class=\"jj_fd_head w_title\"><span class=\"w_name \">[^w_title]<\/span><\/div><div class=\"fd_content w_cont_box\">[^w_content]<\/div><div class=\"jj_fd_foot\"><a href=\"javascript:;\" class=\"backToTop\"><\/a><\/div><\/div>"
+	}],
+	"contents": [{
+		"_attributes": {
+			"id": "2",
+			"title": "14px列表 auto",
+			"group": "文字类",
+			"autolist": "1",
+			"style": [{
+				"name": "内填充(上右下左)",
+				"selector": "#[^repId]",
+				"property": "padding",
+				"value": "6px 0 4px"
+			}, {
+				"name": "行高",
+				"selector": "#[^repId] li",
+				"property": "line-height",
+				"value": "23px"
+			}, {
+				"name": "对齐方式",
+				"selector": "#[^repId] li",
+				"property": "text-align",
+				"value": ["居左:left", "居中:center", "居右:right"]
+			}, {
+				"name": "隐藏日期",
+				"selector": "#[^repId] .datetime",
+				"property": "display",
+				"value": ["显示:", "隐藏:none"]
+			}, {
+				"name": "内容高度",
+				"selector": "#[^repId]",
+				"property": "height",
+				"value": "默认"
+			}, {
+				"name": "内容溢出",
+				"selector": "#[^repId]",
+				"property": "overflow",
+				"value": ["默认:", "隐藏:hidden", "自动:auto"]
+			}, {
+				"name": "显示五条分隔",
+				"selector": "#[^repId] .padding",
+				"property": "display",
+				"value": ["隐藏:none", "显示:block"]
+			}],
+			"custom": [{
+				"name": "点颜色",
+				"mark": " [^listType]",
+				"value": ["无点:", "深蓝:list_009", "蓝色:list_00f", "黑色:list_000", "浅黑:list_333", "灰色:list_666", " 浅灰:list_999"]
+			}, {
+				"name": "视频列表",
+				"mark": "[^videoList]",
+				"value": ["否:", "是: c_video_list"]
+			}, {
+				"name": "五星颜色",
+				"mark": "[^starType]",
+				"value": ["红色:", "蓝色: blueStar"]
+			}]
+		},
+		"template": "<div class=\"c_t_01\"><ul class=\"[^listType][^videoList][^starType]\"><% _.each(data, function(obj,i) { %><li><% if(obj.author){ %><span class=\"author\"><%=obj.author%><\/span><% } %><% if(obj.link){ %><a href=\"<%=obj.link%>\"><%=obj.title%><\/a><% } else { %><span class=\"\"><%=obj.title%><\/span><% } %><% if(obj.datetime){ %><span class=\"datetime\"><%=obj.datetime%><\/span><% } %><\/li><% }); %><!-- 系统标记 专题英文名:\"[^s_title_en]\", 专题子栏目:[\"[^s_subList]\"], limit:[^s_dataLimit] --><\/ul><\/div>"
+	}, {
+		"_attributes": {
+			"id": "3",
+			"title": "12px列表 auto",
+			"group": "文字类",
+			"autolist": "1",
+			"style": [{
+				"name": "内填充(上右下左)",
+				"selector": "#[^repId]",
+				"property": "padding",
+				"value": "6px 0 4px 4px;"
+			}, {
+				"name": "行高",
+				"selector": "#[^repId] li",
+				"property": "line-height",
+				"value": "20px"
+			}, {
+				"name": "对齐方式",
+				"selector": "#[^repId] li",
+				"property": "text-align",
+				"value": ["居左:left", "居中:center", "居右:right"]
+			}, {
+				"name": "隐藏日期",
+				"selector": "#[^repId] .datetime",
+				"property": "display",
+				"value": ["显示:", "隐藏:none"]
+			}, {
+				"name": "内容高度",
+				"selector": "#[^repId]",
+				"property": "height",
+				"value": "默认"
+			}, {
+				"name": "内容益处处理",
+				"selector": "#[^repId]",
+				"property": "overflow",
+				"value": ["默认:", "隐藏:hidden", "自动:auto"]
+			}],
+			"custom": [{
+				"name": "点颜色",
+				"mark": " [^listType]",
+				"value": ["无点:", "深蓝:list_009", "蓝色:list_00f", "黑色:list_000", "浅黑:list_333", "灰色:list_666", "浅灰:list_999"]
+			}, {
+				"name": "视频列表",
+				"mark": " [^videoList]",
+				"value": ["否:", " 是: c_video_list"]
+			}]
+		},
+		"template": "<div class=\"c_t_02\"><ul class=\"[^listType][^videoList]\"><% _.each(data, function(obj,i) { %><li><% if(obj.author){ %><span class=\"author\"><%=obj.author%><\/span><% } %><% if(obj.link){ %><a href=\"<%=obj.link%>\"><%=obj.title%><\/a><% } else { %><span class=\"\"><%=obj.title%><\/span><% } %><% if(obj.datetime){ %><span class=\"datetime\"><%=obj.datetime%><\/span><% } %><\/li><% }); %><!-- 系统标记 专题英文名:\"[^s_title_en]\", 专题子栏目:[\"[^s_subList]\"], limit:[^s_dataLimit] --><\/ul><\/div>"
+	}, {
+		"_attributes": {
+			"id": "4",
+			"title": "12px列表 - 有摘要",
+			"group": "文字类",
+			"autolist": "0",
+			"style": [{
+				"name": "内填充(上右下左)",
+				"selector": "#[^repId]",
+				"property": "padding",
+				"value": "6px 0 4px 4px"
+			}, {
+				"name": "标题字号",
+				"selector": "#[^repId] .c_tit",
+				"property": "font-size",
+				"value": "12px"
+			}, {
+				"name": "标题行高",
+				"selector": "#[^repId] .c_tit",
+				"property": "line-height",
+				"value": "20px"
+			}, {
+				"name": "摘要填充",
+				"selector": "#[^repId] .c_memo",
+				"property": "padding",
+				"value": "5px 0 5px 5px"
+			}, {
+				"name": "摘要字号",
+				"selector": "#[^repId] .c_memo",
+				"property": "font-size",
+				"value": "12px"
+			}, {
+				"name": "摘要行高",
+				"selector": "#[^repId] .c_memo",
+				"property": "line-height",
+				"value": "20px"
+			}, {
+				"name": "摘要文字颜色",
+				"selector": "#[^repId] .c_memo",
+				"property": "color",
+				"value": "默认"
+			}],
+			"custom": [{
+				"name": "点颜色",
+				"mark": "[^listType]",
+				"value": ["无点:", "深蓝:list_009", "蓝色:list_00f", "黑色:list_000", "浅黑:list_333", "灰色:list_666", "浅灰:list_999"]
+			}]
+		},
+		"template": "<div class=\"c_t_02\"><ul class=\"[^listType]\"><% _.each(data, function(obj,i) { %><li class=\"c_tit\"><% if(obj.link){ %><a href=\"<%=obj.link%>\"><%=obj.title%><\/a><% } else { %><span class=\"\"><%=obj.title%><\/span><% } %><% if(obj.datetime){ %><span class=\"datetime\"><%=obj.datetime%><\/span><% } %><\/li><li class=\"c_memo\"><%=obj.intro%><\/li><% }); %><\/ul><\/div>"
+	}, {
+		"_attributes": {
+			"id": "5",
+			"title": "文本段",
+			"group": "文字类",
+			"autolist": "0",
+			"style": [{
+				"name": "内填充(上右下左)",
+				"selector": "#[^repId]",
+				"property": "padding",
+				"value": "4px 10px 4px"
+			}, {
+				"name": "文字颜色",
+				"selector": "#[^repId] .c_memo",
+				"property": "color",
+				"value": "#333"
+			}, {
+				"name": "行高",
+				"selector": "# [^repId] .c_memo",
+				"property": "line-height",
+				"value": "20px"
+			}, {
+				"name": "对齐方式",
+				"selector": "#[^repId]",
+				"property": "text-align",
+				"value": ["居左:left", "居中:center", "居右:right"]
+			}, {
+				"name": "字号",
+				"selector": "#[^repId] p",
+				"property": "font-size",
+				"value": "12px"
+			}],
+			"custom": []
+		},
+		"template": "<div class=\"c_t_03\"><% _.each(data, function(obj,i) { %><p class=\"c_memo\"><%=obj.intro%><\/p><% }); %><\/div>"
+	}, {
+		"_attributes": {
+			"id": "6",
+			"title": "头条新闻",
+			"group": "文字类",
+			"autolist": "0",
+			"style": [{
+				"name": "内填充(上右下左)",
+				"selector": "# [^repId]",
+				"property": "padding",
+				"value": "0"
+			}, {
+				"name": "标题字体",
+				"selector": "# [^repId] h1",
+				"property": "font-family",
+				"value": "黑体"
+			}, {
+				"name": "标题字号",
+				"selector": "# [^repId] h1",
+				"property": "font-size",
+				"value": "20px"
+			}, {
+				"name": "标题行高",
+				"selector": "# [^repId] h1",
+				"property": "line-height",
+				"value": "38px"
+			}, {
+				"name": "文本行高",
+				"selector": "#[^repId] p",
+				"property": "line-height",
+				"value": "20px"
+			}, {
+				"name": "文本字号",
+				"selector": "# [^repId] p",
+				"property": "font-size",
+				"value": "12px"
+			}, {
+				"name": "虚线显示",
+				"selector": "# [^repId] .c_line",
+				"property": "display",
+				"value": ["显示:block", "隐藏:none"]
+			}, {
+				"name": "文本行对齐方式",
+				"selector": "#[^repId] p",
+				"property": "text-align",
+				"value": ["居中:center", "居左:left", "居右:right"]
+			}, {
+				"name": "标题颜色(默认)",
+				"selector": "#[^repId] h1 a:link,#[^repId] h1 a:visited",
+				"property": "color",
+				"value": "#cc2e2f"
+			}, {
+				"name": "标题颜色(划过)",
+				"selector": "#[^repId] h1 a:hover",
+				"property": "color",
+				"value": "#f00"
+			}],
+			"custom": []
+		},
+		"template": "<div class=\"c_t_04\"><% _.each(data,function(obj,i){ %><% if(i==0) { %><h1><% if(obj.link){ %><a href=\"<%=obj.link%>\"><%=obj.title%><\/a><% } else { %><span class=\"\"><%=obj.title%><\/span><% } %><\/h1><% } %><% if(i!=0) { %><p class=\"c_memo\"><% if(obj.link){ %><a href=\"<%=obj.link%>\"><%=obj.title%><\/a><% } else { %><span class=\"\"><%=obj.title%><\/span><% } %><\/p><% } %><% }); %><div class=\"c_line\"><\/div><\/div>"
+	}, {
+		"_attributes": {
+			"id": "7",
+			"title": "标题+提要",
+			"group": "文字类",
+			"autolist": "0",
+			"style": [{
+				"name": " 内填充(上右下左)",
+				"selector": "#[^repId]",
+				"property": "padding",
+				"value": "6px 0 6px 5px"
+			}, {
+				"name": "标题字号",
+				"selector": "#[^repId] h5",
+				"property": "font-size",
+				"value": "14px"
+			}, {
+				"name": "标题行号",
+				"selector": "# [^repId] h5",
+				"property": "line-height",
+				"value": "23px"
+			}, {
+				"name": "文本行高",
+				"selector": "#[^repId] .c_memo",
+				"property": "line-height",
+				"value": "20px"
+			}, {
+				"name": "文本颜色",
+				"selector": "#[^repId] .c_memo",
+				"property": "color",
+				"value": "默认"
+			}],
+			"custom": []
+		},
+		"template": "<div class=\"c_t_06\"><% _.each(data, function(obj,i) { %><h5><% if(obj.author){ %><span class=\"author\"><%=obj.author%><\/span><% } %><% if(obj.link){ %><a href=\"<%=obj.link%>\"><%=obj.title%><\/a><% } else { %><span class=\"\"><%=obj.title%><\/span><% } %><\/h5><p class=\"c_memo\"><%=obj.intro%><\/p><% }); %><\/div>"
+	}, {
+		"_attributes": {
+			"id": "8",
+			"title": "排行列表",
+			"group": "文字类",
+			"autolist": "0",
+			"style": [{
+				"name": "内填充(上右下左)",
+				"selector": "# [^repId]",
+				"property": "padding",
+				"value": "5px 0 6px 4px"
+			}],
+			"custom": []
+		},
+		"template": "<div class=\"c_t_07\"><ol><% _.each(data, function(obj,i) { %><li><span class=\"num\">1<\/span><% if(obj.author){ %><span class=\"author\"><%=obj.author%><\/span><% } %> <% if(obj.link){ %><a href=\"<%=obj.link%>\"><%=obj.title%><\/a><% } else { %><span class=\"\"><%=obj.title%><\/span><% } %><\/li><% }); %><\/ol><\/div>"
+	}, {
+		"_attributes": {
+			"id": "10",
+			"title": "特殊文字 - 多行",
+			"group": "文字类",
+			"autolist": "0",
+			"style": [{
+				"name": "内填充(上右下左)",
+				"selector": "#[^repId]",
+				"property": "padding",
+				"value": "6px 0 5px 4px"
+			}, {
+				"name": "行高",
+				"selector": "#[^repId] li",
+				"property": "line-height",
+				"value": "20px"
+			}],
+			"custom": [{
+				"name": "点颜色",
+				"mark": "[^listType]",
+				"value": ["无点:", "深蓝:list_009", "蓝色:list_00f", "黑色:list_000", "浅黑:list_333", "灰色:list_666", "浅灰:list_999"]
+			}]
+		},
+		"template": "<div class=\"c_t_08\"><% _.each(data,function(obj,i){ %><% if(i==0) { %><h4><% if(obj.link){ %><a href=\"<%=obj.link%>\"><%=obj.title%><\/a><% } else { %><span class=\"\"><%=obj.title%><\/span><% } %><\/h4><ul class=\"[^listType]\"><% } %><% if(i!=0) { %><li><% if(obj.link){ %><a href=\"<%=obj.link%>\"><%=obj.title%><\/a><% } else { %><span class=\"\"><%=obj.title%><\/span><% } %><% if(obj.datetime){ %><span class=\"datetime\"><%=obj.datetime%><\/span><% } %><\/li><% } %><% }); %><\/ul><\/div>"
+	}, {
+		"_attributes": {
+			"id": "11",
+			"title": " 大标题+说明",
+			"group": "文字类",
+			"autolist": "0",
+			"style": [{
+				"name": "内填充(上右下左)",
+				"selector": "#[^repId]",
+				"property": "padding",
+				"value": "5px"
+			}, {
+				"name": " 标题字号",
+				"selector": "# [^repId] h1",
+				"property": "font-size",
+				"value": "20px"
+			}, {
+				"name": "标题字体",
+				"selector": "# [^repId] h1",
+				"property": "font-family",
+				"value": "黑体"
+			}, {
+				"name": "标题行高",
+				"selector": "# [^repId] h1",
+				"property": "line-height",
+				"value": "36px"
+			}, {
+				"name": "文本字号",
+				"selector": "#[^repId] p",
+				"property": "font-size",
+				"value": "14px"
+			}, {
+				"name": "文本缩进",
+				"selector": "# [^repId] p",
+				"property": "text-indent",
+				"value": "2em"
+			}, {
+				"name": "文本行高",
+				"selector": "# [^repId] p",
+				"property": "line-height",
+				"value": "23px"
+			}, {
+				"name": "标题颜色(默认)",
+				"selector": "#[^repId] h1 a:link,#[^repId] h1 a:visited",
+				"property": "color",
+				"value": "默认"
+			}, {
+				"name": "标题颜色(划过)",
+				"selector": "#[^repId] h1 a:hover",
+				"property": "color",
+				"value": "默认"
+			}],
+			"custom": []
+		},
+		"template": "<div class=\"c_t_10\"><% _.each(data, function(obj,i) { %><h1><% if(obj.link){ %><a href=\"<%=obj.link%>\"><%=obj.title%><\/a><% } else { %><span class=\"\"><%=obj.title%><\/span><% } %><\/h1><p class=\"c_memo\"><%=obj.intro%><\/p><% }); %><\/div>"
+	}, {
+		"_attributes": {
+			"id": "12",
+			"title": "文本段+列表",
+			"group": "文字类",
+			"autolist": "0",
+			"style": [{
+				"name": "内填充(上右下左)",
+				"selector": "# [^repId]",
+				"property": "padding",
+				"value": "5px"
+			}, {
+				"name": "文本字号",
+				"selector": "# [^repId] p",
+				"property": "font-size",
+				"value": "14px"
+			}, {
+				"name": "文本缩进",
+				"selector": "# [^repId] p",
+				"property": "text-indent",
+				"value": "2em"
+			}, {
+				"name": "文本行高",
+				"selector": "# [^repId] p",
+				"property": "line-height",
+				"value": "23px"
+			}, {
+				"name": "列表内填充",
+				"selector": "#[^repId] ul",
+				"property": "padding",
+				"value": "1px 0 0 0"
+			}, {
+				"name": "列表字号",
+				"selector": "#[^repId] li",
+				"property": "font-size",
+				"value": "14px"
+			}, {
+				"name": "列表行高",
+				"selector": "# [^repId] li",
+				"property": "line-height",
+				"value": "23px"
+			}],
+			"custom": [{
+				"name": "点颜色",
+				"mark": "[^listType]",
+				"value": ["无点:", "深蓝:list_009", " 蓝色:list_00f", "黑色:list_000", "浅黑:list_333", "灰色:list_666", "浅灰:list_999"]
+			}]
+		},
+		"template": "<div class=\"c_t_11\"><% _.each(data,function(obj,i){ %><% if(i==0) { %><p class=\"c_memo\"><%=obj.intro%><\/p><ul class=\"[^listType]\"><% } %><% if(i != 0) { %><li><% if(obj.link){ %><a href=\"<%=obj.link%>\"><%=obj.title%><\/a><% } else { %><span class=\"\"><%=obj.title%><\/span><% } %><% if(obj.datetime){ %><span class=\"datetime\"><%=obj.datetime%><\/span><% } %><\/li><% } %><% }); %><\/ul><\/div>"
+	}, {
+		"_attributes": {
+			"id": "13",
+			"title": "标题+提要 14px",
+			"group": "文字类",
+			"autolist": "0",
+			"style": [{
+				"name": "内填充(上右下左)",
+				"selector": "#[^repId] ",
+				"property": "padding",
+				"value": "6px 0 6px 5px"
+			}, {
+				"name": "标题字号",
+				"selector": "#[^repId] h5",
+				"property": "font-size",
+				"value": "14px"
+			}, {
+				"name": "标题行高",
+				"selector": "# [^repId] h5",
+				"property": "line-height",
+				"value": "23px"
+			}, {
+				"name": "文本颜色",
+				"selector": "#[^repId] p",
+				"property": "color",
+				"value": "默认"
+			}, {
+				"name": "文本字号",
+				"selector": "#[^repId] p",
+				"property": "font-size",
+				"value": "14px"
+			}, {
+				"name": "文本行高",
+				"selector": "# [^repId] p",
+				"property": "line-height",
+				"value": "23px"
+			}, {
+				"name": "文本缩进",
+				"selector": "# [^repId] p",
+				"property": "text-indent",
+				"value": "2em"
+			}],
+			"custom": []
+		},
+		"template": "<div class=\"c_t_12\"><% _.each(data, function(obj,i) { %><h5><% if(obj.author){ %><span class=\"author\"><%=obj.author%><\/span><% } %><% if(obj.link){ %><a href=\"<%=obj.link%>\"><%=obj.title%><\/a><% } else { %><span class=\"\"><%=obj.title%><\/span><% } %><\/h5><p class=\"c_memo\"><%=obj.intro%><\/p><% }); %><\/div>"
+	}, {
+		"_attributes": {
+			"id": "14",
+			"title": "12px字号列表(两列) auto",
+			"group": "文字类",
+			"autolist": "1",
+			"style": [{
+				"name": "内填充(上右下左)",
+				"selector": "#[^repId]",
+				"property": "padding",
+				"value": "6px 0 4px 0"
+			}, {
+				"name": "列表行高",
+				"selector": "#[^repId] li",
+				"property": "line-height",
+				"value": "20px"
+			}, {
+				"name": "列表字号",
+				"selector": "#[^repId] li",
+				"property": "font-size",
+				"value": "12px"
+			}, {
+				"name": "隐藏日期",
+				"selector": "# [^repId] .datetime",
+				"property": "display",
+				"value": ["显示:", "隐藏:none"]
+			}, {
+				"name": "列宽",
+				"selector": "#[^repId] li",
+				"property": "width",
+				"value": "45%"
+			}],
+			"custom": [{
+				"name": "点颜色",
+				"mark": " [^listType]",
+				"value": ["无点:", "深蓝:list_009", "蓝色:list_00f", "黑色:list_000", "浅黑:list_333", "灰色:list_666", "浅灰:list_999"]
+			}, {
+				"name": "视频列表",
+				"mark": " [^videoList]",
+				"value": ["否:", "是: c_video_list"]
+			}]
+		},
+		"template": "<div class=\"c_t_13\"><ul class=\"[^listType][^videoList]\"><% _.each(data, function(obj,i) { %><li><% if(obj.link){ %><a href=\"<%=obj.link%>\"><%=obj.title%><\/a><% } else { %><span class=\"\"><%=obj.title%><\/span><% } %><% if(obj.datetime){ %><span class=\"datetime\"><%=obj.datetime%><\/span><% } %><\/li><% }); %><!-- 系统标记 专题英文名:\"[^s_title_en]\", 专题子栏目:[\"[^s_subList]\"], limit:[^s_dataLimit] --><\/ul><\/div>"
+	}, {
+		"_attributes": {
+			"id": "41",
+			"title": "空白代码段",
+			"group": "文字类",
+			"autolist": "0",
+			"style": [{
+				"name": "内填充(上右下左)",
+				"selector": "#[^repId]",
+				"property": "padding",
+				"value": "0"
+			}, {
+				"name": "对齐方式",
+				"selector": "#[^repId]",
+				"property": "text-align",
+				"value": ["居左:left", "居中:center", "居右:right"]
+			}, {
+				"name": "行高",
+				"selector": "# [^repId]",
+				"property": "line-height",
+				"value": "默认"
+			}, {
+				"name": "字体大小",
+				"selector": "#[^repId]",
+				"property": "font- size",
+				"value": "默认"
+			}, {
+				"name": "字体颜色",
+				"selector": "# [^repId]",
+				"property": "color",
+				"value": "默认"
+			}, {
+				"name": "粗体",
+				"selector": "# [^repId]",
+				"property": "font- weight",
+				"value": ["不加粗:normal", "加粗:bold"]
+			}],
+			"custom": []
+		},
+		"template": "<div style=\"overflow:hidden;zoom:1;\" class=\"c_memo\"><% _.each(data, function(obj,i) { %><%=obj.intro%><% }); %><\/div>"
+	}, {
+		"_attributes": {
+			"id": "42",
+			"title": "14px字号列表(两列) auto",
+			"group": "文字类",
+			"autolist": "1",
+			"style": [{
+				"name": "内填充(上右下左)",
+				"selector": "#[^repId]",
+				"property": "padding",
+				"value": "6px 0 4px 0"
+			}, {
+				"name": "列表行高",
+				"selector": "#[^repId] li",
+				"property": "line-height",
+				"value": "23px"
+			}, {
+				"name": "列表字号",
+				"selector": "#[^repId] li",
+				"property": "font-size",
+				"value": "14px"
+			}, {
+				"name": "隐藏日期",
+				"selector": "# [^repId] .datetime",
+				"property": "display",
+				"value": ["显示:", "隐藏:none"]
+			}],
+			"custom": [{
+				"name": "点颜色",
+				"mark": "[^listType]",
+				"value": ["无点:", "深蓝:list_009", "蓝色:list_00f", "黑色:list_000", "浅黑:list_333", "灰色:list_666", "浅灰:list_999"]
+			}, {
+				"name": "视频列表",
+				"mark": "[^videoList]",
+				"value": ["否:", "是: c_video_list"]
+			}]
+		},
+		"template": "<div class=\"c_t_14\"><ul class=\"[^listType][^videoList]\"><% _.each(data, function(obj,i) { %><li><% if(obj.link){ %><a href=\"<%=obj.link%>\"><%=obj.title%><\/a><% } else { %><span class=\"\"><%=obj.title%><\/span><% } %><% if(obj.datetime){ %><span class=\"datetime\"><%=obj.datetime%><\/span><% } %><\/li><% }); %><!-- 系统标记 专题英文名:\"[^s_title_en]\", 专题子栏目:[\"[^s_subList]\"], limit:[^s_dataLimit] --><\/ul><\/div>"
+	}, {
+		"_attributes": {
+			"id": "15",
+			"title": "视频图片组 90*60",
+			"group": "图片类",
+			"autolist": "0",
+			"style": [{
+				"name": "内填充(上右下左)",
+				"selector": "#[^repId]",
+				"property": "padding",
+				"value": "0 0 0 3px"
+			}, {
+				"name": "单元宽度",
+				"selector": "#[^repId] .c_pic",
+				"property": "width",
+				"value": "118px"
+			}, {
+				"name": "标题字号",
+				"selector": "# [^repId] .c_pic p",
+				"property": "font-size",
+				"value": "12px"
+			}, {
+				"name": "标题行高",
+				"selector": "# [^repId] .c_pic p",
+				"property": "line-height",
+				"value": "20px"
+			}, {
+				"name": "标题填充",
+				"selector": "# [^repId] .c_pic p",
+				"property": "padding",
+				"value": "6px 0 0 0"
+			}],
+			"custom": []
+		},
+		"template": "<div class=\"c_p_01\"><% _.each(data, function(obj,i) { %><div class=\"c_pic\"><div class=\"c_playBg\"><% if(obj.link){ %><a href=\"<%=obj.link%>\"><img src=\"<%=obj.image%>\" alt=\"<%=obj.title%>\"\/><\/a><% } else { %><img src=\"<%=obj.image%>\" alt=\"<%=obj.title%>\"\/><% } %><\/div><p><% if(obj.link){ %><a href=\"<%=obj.link%>\"><%=obj.title%><\/a><% } else { %><span class=\"\"><%=obj.title%><\/span><% } %><\/p><\/div><% }); %><\/div>"
+	}, {
+		"_attributes": {
+			"id": "16",
+			"title": "图片组(2列)",
+			"group": " 图片类",
+			"autolist": "0",
+			"style": [{
+				"name": "内填充(上右下左)",
+				"selector": "# [^repId]",
+				"property": "padding",
+				"value": "0 0 3px 0"
+			}, {
+				"name": "每行图片数",
+				"selector": "#[^repId] .c_pic",
+				"property": "width",
+				"value": ["2张:49.9%", "1张:100%", "3张:33.2%", "4 张:24.9%", "5张:19.9%", "6 张:16.5%", "7张:14.26%", "8张:12.4%", "9张:11.1%", "10张:9.9%"]
+			}, {
+				"name": "单元填充",
+				"selector": "#[^repId] .c_pic",
+				"property": "padding",
+				"value": "10px 0 0 0"
+			}, {
+				"name": "图片边线颜色",
+				"selector": "#[^repId] .c_pic img",
+				"property": "border-color",
+				"value": "默认"
+			}, {
+				"name": "图片边线宽度",
+				"selector": "#[^repId] .c_pic img",
+				"property": "border-width",
+				"value": "1px"
+			}, {
+				"name": "标题字号",
+				"selector": "#[^repId] .c_pic p",
+				"property": "font-size",
+				"value": "12px"
+			}, {
+				"name": "标题行高",
+				"selector": "#[^repId] .c_pic p",
+				"property": "line-height",
+				"value": "20px"
+			}, {
+				"name": "标题填充",
+				"selector": "# [^repId] .c_pic p",
+				"property": "padding",
+				"value": "6px 0 0 0"
+			}],
+			"custom": []
+		},
+		"template": "<div class=\"c_p_02\"><% _.each(data, function(obj,i) { %><div class=\"c_pic\"><% if(obj.link){ %><a href=\"<%=obj.link%>\"><img src=\"<%=obj.image%>\" alt=\"<%=obj.title%>\"\/><\/a><% } else { %><img src=\"<%=obj.image%>\" alt=\"<%=obj.title%>\"\/><% } %><p><% if(obj.link){ %><a href=\"<%=obj.link%>\"><%=obj.title%><\/a><% } else { %><span class=\"\"><%=obj.title%><\/span><% } %><\/p><\/div><% }); %><\/div>"
+	}, {
+		"_attributes": {
+			"id": "17",
+			"title": "图片组(3列)",
+			"group": " 图片类",
+			"autolist": "0",
+			"style": [{
+				"name": "内填充(上右下左)",
+				"selector": "# [^repId]",
+				"property": "padding",
+				"value": "0 0 3px 0"
+			}, {
+				"name": "每行图片数",
+				"selector": "#[^repId] .c_pic",
+				"property": "width",
+				"value": ["3张:33.2%", "1张:100%", "2张:49.9%", "4 张:24.9%", "5张:19.95%", "6 张:16.5%", "7张:14.26%", "8张:12.4%", "9张:11.1%", "10张:9.9%"]
+			}, {
+				"name": "单元填充",
+				"selector": "#[^repId] .c_pic",
+				"property": "padding",
+				"value": "10px 0 0 0"
+			}, {
+				"name": "图片边线颜色",
+				"selector": "#[^repId] .c_pic img",
+				"property": "border-color",
+				"value": "默认"
+			}, {
+				"name": "图片边线宽度",
+				"selector": "#[^repId] .c_pic img",
+				"property": "border-width",
+				"value": "1px"
+			}, {
+				"name": "标题字号",
+				"selector": "#[^repId] .c_pic p",
+				"property": "font-size",
+				"value": "12px"
+			}, {
+				"name": "标题行高",
+				"selector": "# [^repId] .c_pic p",
+				"property": "line-height",
+				"value": "20px"
+			}, {
+				"name": "标题填充",
+				"selector": "# [^repId] .c_pic p",
+				"property": "padding",
+				"value": "6px 0 0 0"
+			}],
+			"custom": []
+		},
+		"template": "<div class=\"c_p_03\"><% _.each(data, function(obj,i) { %><div class=\"c_pic\"><% if(obj.link){ %><a href=\"<%=obj.link%>\"><img src=\"<%=obj.image%>\" alt=\"<%=obj.title%>\"\/><\/a><% } else { %><img src=\"<%=obj.image%>\" alt=\"<%=obj.title%>\"\/><% } %><p><% if(obj.link){ %><a href=\"<%=obj.link%>\"><%=obj.title%><\/a><% } else { %><span class=\"\"><%=obj.title%><\/span><% } %><\/p><\/div><% }); %><\/div>"
+	}, {
+		"_attributes": {
+			"id": "18",
+			"title": "图片组(6列)",
+			"group": " 图片类",
+			"autolist": "0",
+			"style": [{
+				"name": "内填充(上右下左)",
+				"selector": "# [^repId]",
+				"property": "padding",
+				"value": "0 0 8px 5px"
+			}, {
+				"name": "每行图片数",
+				"selector": "#[^repId] .c_pic",
+				"property": "width",
+				"value": ["6张:16.5%", "1张:100%", "2张:49.9%", "3 张:33.2%", "4张:24.95%", "5 张:19.95%", "7张:14.26%", "8张:12.4%", "9张:11.1%", "10张:9.9%"]
+			}, {
+				"name": "单元填充",
+				"selector": "#[^repId] .c_pic",
+				"property": "padding",
+				"value": "10px 0 0 0"
+			}, {
+				"name": "图片边线颜色",
+				"selector": "#[^repId] .c_pic img",
+				"property": "border-color",
+				"value": "默认"
+			}, {
+				"name": "图片边线宽度",
+				"selector": "#[^repId] .c_pic img",
+				"property": "border-width",
+				"value": "1px"
+			}, {
+				"name": "标题字号",
+				"selector": "#[^repId] .c_pic p",
+				"property": "font-size",
+				"value": "12px"
+			}, {
+				"name": "标题行高",
+				"selector": "# [^repId] .c_pic p",
+				"property": "line-height",
+				"value": "20px"
+			}, {
+				"name": "标题填充",
+				"selector": "# [^repId] .c_pic p",
+				"property": "padding",
+				"value": "6px 0 0 0"
+			}],
+			"custom": []
+		},
+		"template": "<div class=\"c_p_04\"><% _.each(data, function(obj,i) { %><div class=\"c_pic\"><% if(obj.link){ %><a href=\"<%=obj.link%>\"><img src=\"<%=obj.image%>\" alt=\"<%=obj.title%>\"\/><\/a><% } else { %><img src=\"<%=obj.image%>\" alt=\"<%=obj.title%>\"\/><% } %><p><% if(obj.link){ %><a href=\"<%=obj.link%>\"><%=obj.title%><\/a><% } else { %><span class=\"\"><%=obj.title%><\/span><% } %><\/p><\/div><% }); %><\/div>"
+	}, {
+		"_attributes": {
+			"id": "19",
+			"title": "图片组(4列)",
+			"group": " 图片类",
+			"autolist": "0",
+			"style": [{
+				"name": "内填充(上右下左)",
+				"selector": "# [^repId]",
+				"property": "padding",
+				"value": "0"
+			}, {
+				"name": "每行图片数",
+				"selector": "#[^repId] .c_pic",
+				"property": "width",
+				"value": ["4张:24.95%", "1张:100%", "2张:49.9%", "3 张:33.2%", "5张:19.95%", "6 张:16.5%", "7张:14.26%", "8张:12.4%", "9张:11.1%", "10张:9.9%"]
+			}, {
+				"name": "单元填充",
+				"selector": "#[^repId] .c_pic",
+				"property": "padding",
+				"value": "10px 0 0 0"
+			}, {
+				"name": "图片边线颜色",
+				"selector": "#[^repId] .c_pic img",
+				"property": "border-color",
+				"value": "默认"
+			}, {
+				"name": "图片边线宽度",
+				"selector": "#[^repId] .c_pic img",
+				"property": "border-width",
+				"value": "1px"
+			}, {
+				"name": "标题字号",
+				"selector": "#[^repId] .c_pic p",
+				"property": "font-size",
+				"value": "12px"
+			}, {
+				"name": "标题行高",
+				"selector": "# [^repId] .c_pic p",
+				"property": "line-height",
+				"value": "20px"
+			}, {
+				"name": "标题填充",
+				"selector": "# [^repId] .c_pic p",
+				"property": "padding",
+				"value": "6px 0 0 0"
+			}],
+			"custom": []
+		},
+		"template": "<div class=\"c_p_05\"><% _.each(data, function(obj,i) { %><div class=\"c_pic\"><% if(obj.link){ %><a href=\"<%=obj.link%>\"><img src=\"<%=obj.image%>\" alt=\"<%=obj.title%>\"\/><\/a><% } else { %><img src=\"<%=obj.image%>\" alt=\"<%=obj.title%>\"\/><% } %><p><% if(obj.link){ %><a href=\"<%=obj.link%>\"><%=obj.title%><\/a><% } else { %><span class=\"\"><%=obj.title%><\/span><% } %><\/p><\/div><% }); %><\/div>"
+	}, {
+		"_attributes": {
+			"id": "29",
+			"title": "单张图片",
+			"group": "图片类",
+			"autolist": "0",
+			"style": [{
+				"name": "内填充(上右下左)",
+				"selector": "# [^repId]",
+				"property": "padding",
+				"value": "0"
+			}, {
+				"name": "对齐方式",
+				"selector": "# [^repId]",
+				"property": "text-align",
+				"value": ["居左:left", "居中:center", "居右:right"]
+			}, {
+				"name": "图片边框宽度",
+				"selector": "#[^repId] img",
+				"property": "border-width",
+				"value": "0"
+			}, {
+				"name": "图片边框颜色",
+				"selector": "#[^repId] img",
+				"property": "border-color",
+				"value": "默认"
+			}, {
+				"name": "图片边框颜类型",
+				"selector": "#[^repId] img",
+				"property": "border-style",
+				"value": ["实线:solid", "虚线:dashed"]
+			}],
+			"custom": []
+		},
+		"template": "<div class=\"c_p_05\"><% _.each(data,function(obj,i){ %><% if(obj.link){ %><a href=\"<%=obj.link%>\"><img src=\"<%=obj.image%>\" alt=\"<%=obj.title%>\"\/><\/a><% } else { %><img src=\"<%=obj.image%>\" alt=\"<%=obj.title%>\"\/><% } %><% }); %><\/div>"
+	}, {
+		"_attributes": {
+			"id": "49",
+			"title": "48x48小图阵列",
+			"group": "图片类",
+			"autolist": "0",
+			"style": [{
+				"name": "内填充(上右下左)",
+				"selector": "# [^repId]",
+				"property": "padding",
+				"value": "0"
+			}, {
+				"name": "图片边框颜色",
+				"selector": "# [^repId] .c_pic img",
+				"property": "border-color",
+				"value": "默认"
+			}, {
+				"name": "图文边框颜色",
+				"selector": "#[^repId] .c_box",
+				"property": "border-color",
+				"value": "#d2d2d2"
+			}, {
+				"name": "图文背景颜色",
+				"selector": "#[^repId] .selected,#[^repId] .selectedLeft",
+				"property": "background-color",
+				"value": "#fff"
+			}],
+			"custom": []
+		},
+		"template": "	<div class=\"c_s_07\"><% _.each(data, function(obj,i) { %>		<div class=\"c_box\" onmouseover=\"_ptlist48.show(this)\" onmouseout=\"_ptlist48.hide(this)\">			<div class=\"c_pic\"><% if(obj.link){ %><a href=\"<%=obj.link%>\"><img src=\"<%=obj.image%>\" alt=\"<%=obj.title%>\"\/><\/a><% } else { %><img src=\"<%=obj.image%>\" alt=\"<%=obj.title%>\"\/><% } %><\/div>			<div class=\"c_txt\">				<% if(obj.link){ %><a href=\"<%=obj.link%>\"><%=obj.title%><\/a><% } else { %><span class=\"\"><%=obj.title%><\/span><% } %><br \/>				<% if(obj.datetime){ %><span class=\"datetime\"><%=obj.datetime%><\/span><% } %>			<\/div>		<\/div><% }); %>	<\/div>	<script type=\"text\/javascript\">	var _ptlist48 = {		show : function(obj){			if(obj.parentNode.offsetWidth - obj.offsetLeft < 176){				obj.className = 'c_box selectedLeft';			}else{				obj.className = 'c_box selected';			};		},		hide : function(obj){			obj.className = 'c_box';		}	};	<\/script>"
+	}, {
+		"_attributes": {
+			"id": "22",
+			"title": "左图右文字(多列) 75px",
+			"group": "图文类",
+			"autolist": "0",
+			"style": [{
+				"name": "内填充(上右下左)",
+				"selector": "#[^repId]",
+				"property": "padding",
+				"value": "0 0 0 6px"
+			}, {
+				"name": "图片区域宽度",
+				"selector": "#[^repId] .c_pic",
+				"property": "width",
+				"value": "89px"
+			}, {
+				"name": "图片区域内填充",
+				"selector": "#[^repId] .c_pic",
+				"property": "padding",
+				"value": "10px 0 0 0"
+			}, {
+				"name": "图片边线颜色",
+				"selector": "#[^repId] .c_pic img",
+				"property": "border-color",
+				"value": "默认"
+			}, {
+				"name": "图片边线宽度",
+				"selector": "#[^repId] .c_pic img",
+				"property": "border-width",
+				"value": "1px"
+			}, {
+				"name": "标题字号",
+				"selector": "#[^repId] .c_txt h5",
+				"property": "font-size",
+				"value": "12px"
+			}, {
+				"name": "标题行高",
+				"selector": "# [^repId] .c_txt h5",
+				"property": "line-height",
+				"value": "23px"
+			}, {
+				"name": "文本字号",
+				"selector": "#[^repId] .c_txt p",
+				"property": "font-size",
+				"value": "12px"
+			}, {
+				"name": "文本行高",
+				"selector": "# [^repId] .c_txt p",
+				"property": "line-height",
+				"value": "20px"
+			}, {
+				"name": "文本缩进",
+				"selector": "# [^repId] .c_txt p",
+				"property": "text-indent",
+				"value": "2em"
+			}, {
+				"name": "每行列数",
+				"selector": "# [^repId] .c_picTxt",
+				"property": "width",
+				"value": ["1列:100%", "2列:49.9%", "3 列:33.3%", "4 列:24.9%"]
+			}],
+			"custom": [{
+				"name": "标题类型",
+				"mark": "[^dotType]",
+				"value": ["有点:", "无点:noDot"]
+			}]
+		},
+		"template": "<div class=\"c_pt_01\"><% _.each(data, function(obj,i) { %><div class=\"c_picTxt\"><div class=\"c_pic\"><% if(obj.link){ %><a href=\"<%=obj.link%>\"><img src=\"<%=obj.image%>\" alt=\"<%=obj.title%>\"\/><\/a><% } else { %><img src=\"<%=obj.image%>\" alt=\"<%=obj.title%>\"\/><% } %><\/div><div class=\"c_txt\"><h5 class=\"[^dotType]\"><% if(obj.link){ %><a href=\"<%=obj.link%>\"><%=obj.title%><\/a><% } else { %><span class=\"\"><%=obj.title%><\/span><% } %><\/h5><p class=\"c_memo\"><%=obj.intro%><\/p><\/div><\/div> <% }); %><\/div>"
+	}, {
+		"_attributes": {
+			"id": "23",
+			"title": "左图右列表 55px",
+			"group": "图文类",
+			"autolist": "0",
+			"style": [{
+				"name": "内填充(上右下左)",
+				"selector": "#[^repId]",
+				"property": "padding",
+				"value": "0 0 0 0"
+			}, {
+				"name": "图片区域宽度",
+				"selector": "#[^repId] .c_pic",
+				"property": "width",
+				"value": "63px"
+			}, {
+				"name": "图片区域内填充",
+				"selector": "#[^repId] .c_pic",
+				"property": "padding",
+				"value": "10px 0 3px 3px"
+			}, {
+				"name": "图片边线颜色",
+				"selector": "#[^repId] .c_pic img",
+				"property": "border-color",
+				"value": "默认"
+			}, {
+				"name": "图片边线宽度",
+				"selector": "#[^repId] .c_pic img",
+				"property": "border-width",
+				"value": "1px"
+			}, {
+				"name": "图片标题字号",
+				"selector": "#[^repId] .c_pic p",
+				"property": "font-size",
+				"value": "12px"
+			}, {
+				"name": "图片标题行高",
+				"selector": "# [^repId] .c_pic p",
+				"property": "line-height",
+				"value": "20px"
+			}, {
+				"name": "图片标题内填充",
+				"selector": "#[^repId] .c_pic p",
+				"property": "padding",
+				"value": "6px 0 0 0"
+			}, {
+				"name": "列表字号",
+				"selector": "#[^repId] .c_txt li",
+				"property": "font-size",
+				"value": "12px"
+			}, {
+				"name": "列表行高",
+				"selector": "# [^repId] .c_txt li",
+				"property": "line-height",
+				"value": "20px"
+			}],
+			"custom": [{
+				"name": "点颜色",
+				"mark": "[^listType]",
+				"value": ["无点:", "深蓝:list_009", " 蓝色:list_00f", "黑色:list_000", "浅黑:list_333", "灰色:list_666", "浅灰:list_999"]
+			}]
+		},
+		"template": "<div class=\"c_pt_02\"><div class=\"c_picTxt\"><% _.each(data,function(obj,i){ %><% if(i==0) { %><div class=\"c_picTxt\"><div class=\"c_pic\"><% if(obj.link){ %><a href=\"<%=obj.link%>\"><img src=\"<%=obj.image%>\" alt=\"<%=obj.title%>\"\/><\/a><% } else { %><img src=\"<%=obj.image%>\" alt=\"<%=obj.title%>\"\/><% } %><p><% if(obj.link){ %><a href=\"<%=obj.link%>\"><%=obj.title%><\/a><% } else { %><span class=\"\"><%=obj.title%><\/span><% } %><\/p><\/div><div class=\"c_txt\"><ul class=\"[^listType]\"><% } %><% if(i != 0) { %><li><% if(obj.link){ %><a href=\"<%=obj.link%>\"><%=obj.title%><\/a><% } else { %><span class=\"\"><%=obj.title%><\/span><% } %><\/li><% } %><% }); %><\/ul><\/div><\/div><\/div><\/div>"
+	}, {
+		"_attributes": {
+			"id": "25",
+			"title": "左图右文字 120px",
+			"group": "图文类",
+			"autolist": "0",
+			"style": [{
+				"name": "内填充(上右下左)",
+				"selector": "#[^repId]",
+				"property": "padding",
+				"value": "0 0 0 0"
+			}, {
+				"name": "图片区域宽度",
+				"selector": "#[^repId] .c_pic",
+				"property": "width",
+				"value": "133px"
+			}, {
+				"name": "图片区域内填充",
+				"selector": "#[^repId] .c_pic",
+				"property": "padding",
+				"value": "10px 2px 3px 0"
+			}, {
+				"name": "图片边线颜色",
+				"selector": "#[^repId] .c_pic img",
+				"property": "border-color",
+				"value": "默认"
+			}, {
+				"name": "图片边线宽度",
+				"selector": "#[^repId] .c_pic img",
+				"property": "border-width",
+				"value": "1px"
+			}, {
+				"name": "图片标题字号",
+				"selector": "#[^repId] .c_pic p",
+				"property": "font-size",
+				"value": "12px"
+			}, {
+				"name": "图片标题行高",
+				"selector": "# [^repId] .c_pic p",
+				"property": "line-height",
+				"value": "12px"
+			}, {
+				"name": "图片标题内填充",
+				"selector": "#[^repId] .c_pic p",
+				"property": "padding",
+				"value": "10px 0 0 0"
+			}, {
+				"name": "文字标题字号",
+				"selector": "#[^repId] .c_txt h5",
+				"property": "font-size",
+				"value": "14px"
+			}, {
+				"name": "文字标题行高",
+				"selector": "#[^repId] .c_txt h5",
+				"property": "line-height",
+				"value": "23px"
+			}, {
+				"name": "文字文本字号",
+				"selector": "#[^repId] .c_txt p",
+				"property": "font-size",
+				"value": "12px"
+			}, {
+				"name": "文字文本行高",
+				"selector": "# [^repId] .c_txt p",
+				"property": "line-height",
+				"value": "22px"
+			}, {
+				"name": "文字文本缩进",
+				"selector": "#[^repId] .c_txt p",
+				"property": "text-indent",
+				"value": "2em"
+			}, {
+				"name": "文字文本颜色",
+				"selector": "#[^repId] .c_txt p",
+				"property": "color",
+				"value": "默认"
+			}],
+			"custom": []
+		},
+		"template": "<div class=\"c_pt_04\"><div class=\"c_picTxt\"><% _.each(data,function(obj,i){ %><% if(i==0) { %><div class=\"c_pic\"><% if(obj.link){ %><a href=\"<%=obj.link%>\"><img src=\"<%=obj.image%>\" alt=\"<%=obj.title%>\"\/><\/a><% } else { %><img src=\"<%=obj.image%>\" alt=\"<%=obj.title%>\"\/><% } %><p><% if(obj.link){ %><a href=\"<%=obj.link%>\"><%=obj.title%><\/a><% } else { %><span class=\"\"><%=obj.title%><\/span><% } %><\/p><\/div><% } else { %><div class=\"c_txt\"><h5><% if(obj.link){ %><a href=\"<%=obj.link%>\"><%=obj.title%><\/a><% } else { %><span class=\"\"><%=obj.title%><\/span><% } %><\/h5><p class=\"c_memo\"><%=obj.intro%><\/p><\/div><% } %><% }); %><\/div><\/div>"
+	}, {
+		"_attributes": {
+			"id": "26",
+			"title": "左图右文字 300*200(必须放在一列横切内,即宽度为950px)",
+			"group": "图文类",
+			"autolist": "0",
+			"style": [{
+				"name": "内填充(上右下左)",
+				"selector": "#[^repId] ",
+				"property": "padding",
+				"value": "11px 0 4px 4px"
+			}],
+			"custom": []
+		},
+		"template": "<div class=\"c_pt_05\"><% _.each(data,function(obj,i){ %><% if(i==0) { %><div class=\"c_pic\"><% if(obj.link){ %><a href=\"<%=obj.link%>\"><img src=\"<%=obj.image%>\" alt=\"<%=obj.title%>\"\/><\/a><% } else { %><img src=\"<%=obj.image%>\" alt=\"<%=obj.title%>\"\/><% } %><p><% if(obj.link){ %><a href=\"<%=obj.link%>\"><%=obj.title%><\/a><% } else { %><span class=\"\"><%=obj.title%><\/span><% } %><\/p><\/div><div class=\"c_txt\"><h4><% if(obj.link){ %><a href=\"<%=obj.link%>\"><%=obj.title%><\/a><% } else { %><span class=\"\"><%=obj.title%><\/span><% } %><\/h4><p class=\"c_memo\"><%=obj.intro%><\/p><ol><% } %><% if(i != 0) { %><li><% if(obj.author){ %><span class=\"author\"><%=obj.author%><\/span><% } %> <% if(obj.link){ %><a href=\"<%=obj.link%>\"><%=obj.title%><\/a><% } else { %><span class=\"\"><%=obj.title%><\/span><% } %><\/li><% } %><% }); %><\/ol><\/div><\/div>"
+	}, {
+		"_attributes": {
+			"id": "33",
+			"title": "左图右文字(多列) 120px",
+			"group": "图文类",
+			"autolist": "0",
+			"style": [{
+				"name": "内填充(上右下左)",
+				"selector": "#[^repId]",
+				"property": "padding",
+				"value": "0 0 0 0"
+			}, {
+				"name": "图片区域宽度",
+				"selector": "#[^repId] .c_pic",
+				"property": "width",
+				"value": "133px"
+			}, {
+				"name": "图片区域内填充",
+				"selector": "#[^repId] .c_pic",
+				"property": "padding",
+				"value": "10px 2px 3px 0"
+			}, {
+				"name": "图片边线颜色",
+				"selector": "#[^repId] .c_pic img",
+				"property": "border-color",
+				"value": "默认"
+			}, {
+				"name": "图片边线宽度",
+				"selector": "#[^repId] .c_pic img",
+				"property": "border-width",
+				"value": "1px"
+			}, {
+				"name": "文字标题字号",
+				"selector": "#[^repId] .c_txt h5",
+				"property": "font-size",
+				"value": "14px"
+			}, {
+				"name": "文字标题行高",
+				"selector": "#[^repId] .c_txt h5",
+				"property": "line-height",
+				"value": "23px"
+			}, {
+				"name": "文字文本字号",
+				"selector": "#[^repId] .c_txt p",
+				"property": "font-size",
+				"value": "12px"
+			}, {
+				"name": "文字文本行高",
+				"selector": "# [^repId] .c_txt p",
+				"property": "line-height",
+				"value": "22px"
+			}, {
+				"name": "文字文本缩进",
+				"selector": "#[^repId] .c_txt p",
+				"property": "text-indent",
+				"value": "2em"
+			}, {
+				"name": "文字文本颜色",
+				"selector": "#[^repId] .c_txt p",
+				"property": "color",
+				"value": "默认"
+			}, {
+				"name": "每行列数",
+				"selector": "#[^repId] .c_picTxt",
+				"property": "width",
+				"value": ["1列:100%", "2列:49.9%", "3 列:33.3%", "4 列:24.9%"]
+			}],
+			"custom": []
+		},
+		"template": "<div class=\"c_pt_04\"><% _.each(data, function(obj,i) { %><div class=\"c_picTxt\"><div class=\"c_pic\"><% if(obj.link){ %><a href=\"<%=obj.link%>\"><img src=\"<%=obj.image%>\" alt=\"<%=obj.title%>\"\/><\/a><% } else { %><img src=\"<%=obj.image%>\" alt=\"<%=obj.title%>\"\/><% } %><\/div><div class=\"c_txt\"><h5><% if(obj.link){ %><a href=\"<%=obj.link%>\"><%=obj.title%><\/a><% } else { %><span class=\"\"><%=obj.title%><\/span><% } %><\/h5><p class=\"c_memo\"><%=obj.intro%><\/p><\/div><\/div><% }); %><\/div>"
+	}, {
+		"_attributes": {
+			"id": "34",
+			"title": "左图右列表(图无标题) 55px",
+			"group": "图文类",
+			"autolist": "0",
+			"style": [{
+				"name": "内填充(上右下左)",
+				"selector": "#[^repId]",
+				"property": "padding",
+				"value": "0 0 0 0"
+			}, {
+				"name": "图片区域宽度",
+				"selector": "#[^repId] .c_pic",
+				"property": "width",
+				"value": "63px"
+			}, {
+				"name": "图片区域内填充",
+				"selector": "#[^repId] .c_pic",
+				"property": "padding",
+				"value": "10px 0 3px 3px"
+			}, {
+				"name": "图片边线颜色",
+				"selector": "#[^repId] .c_pic img",
+				"property": "border-color",
+				"value": "默认"
+			}, {
+				"name": "图片边线宽度",
+				"selector": "#[^repId] .c_pic img",
+				"property": "border-width",
+				"value": "1px"
+			}, {
+				"name": "列表字号",
+				"selector": "#[^repId] .c_txt li",
+				"property": "font-size",
+				"value": "12px"
+			}, {
+				"name": "列表行高",
+				"selector": "# [^repId] .c_txt li",
+				"property": "line-height",
+				"value": "20px"
+			}],
+			"custom": [{
+				"name": "点颜色",
+				"mark": "[^listType]",
+				"value": ["无点:", "深蓝:list_009", " 蓝色:list_00f", "黑色:list_000", "浅黑:list_333", "灰色:list_666", "浅灰:list_999"]
+			}]
+		},
+		"template": "<div class=\"c_pt_02\"><div class=\"c_picTxt\"><% _.each(data,function(obj,i){ %><% if(i==0) { %><div class=\"c_picTxt\"><div class=\"c_pic\"><% if(obj.link){ %><a href=\"<%=obj.link%>\"><img src=\"<%=obj.image%>\" alt=\"<%=obj.title%>\"\/><\/a><% } else { %><img src=\"<%=obj.image%>\" alt=\"<%=obj.title%>\"\/><% } %><\/div><div class=\"c_txt\"><ul class=\"[^listType]\"><% } %><% if(i != 0) { %><li><% if(obj.link){ %><a href=\"<%=obj.link%>\"><%=obj.title%><\/a><% } else { %><span class=\"\"><%=obj.title%><\/span><% } %><\/li><% } %><% }); %><\/ul><\/div><\/div><\/div><\/div>"
+	}, {
+		"_attributes": {
+			"id": "45",
+			"title": "图片组附说明(6列)",
+			"group": "图文类",
+			"autolist": "0",
+			"style": [{
+				"name": "内填充(上右下左)",
+				"selector": "#[^repId] ",
+				"property": "padding",
+				"value": "0 0 8px 5px"
+			}, {
+				"name": "每行图片数",
+				"selector": "#[^repId] .c_pic",
+				"property": "width",
+				"value": ["6张:16.5%", "1张:100%", "2张:49.9%", "3 张:33.2%", "4张:24.95%", "5 张:19.95%", "7张:14.27%", "8张:12.4%", "9张:11.1%", "10张:9.9%"]
+			}, {
+				"name": "单元填充",
+				"selector": "#[^repId] .c_pic",
+				"property": "padding",
+				"value": "10px 0 0 0"
+			}, {
+				"name": "图片边线颜色",
+				"selector": "#[^repId] .c_pic img",
+				"property": "border-color",
+				"value": "默认"
+			}, {
+				"name": "图片边线宽度",
+				"selector": "#[^repId] .c_pic img",
+				"property": "border-width",
+				"value": "1px"
+			}, {
+				"name": "标题字号",
+				"selector": "#[^repId] .c_pic p",
+				"property": "font-size",
+				"value": "12px"
+			}, {
+				"name": "标题行高",
+				"selector": "# [^repId] .c_pic p",
+				"property": "line-height",
+				"value": "20px"
+			}, {
+				"name": "标题填充",
+				"selector": "# [^repId] .c_pic p",
+				"property": "padding",
+				"value": "6px 0 0 0"
+			}, {
+				"name": "摘要字号",
+				"selector": "#[^repId] .c_pic .memo",
+				"property": "font-size",
+				"value": "12px"
+			}, {
+				"name": "摘要行高",
+				"selector": "#[^repId] .c_pic .memo",
+				"property": "line-height",
+				"value": "20px"
+			}, {
+				"name": "摘要颜色",
+				"selector": "#[^repId] .c_pic .memo",
+				"property": "color",
+				"value": "默认"
+			}, {
+				"name": "摘要对齐方式",
+				"selector": "# [^repId] .c_pic .memo",
+				"property": "text-align",
+				"value": ["居左:left", "居中:center", "居右:right"]
+			}, {
+				"name": "摘要填充",
+				"selector": "#[^repId] .c_pic .memo",
+				"property": "padding",
+				"value": "默认"
+			}],
+			"custom": []
+		},
+		"template": "<div class=\"c_p_04\"><% _.each(data, function(obj,i) { %><div class=\"c_pic\"><% if(obj.link){ %><a href=\"<%=obj.link%>\"><img src=\"<%=obj.image%>\" alt=\"<%=obj.title%>\"\/><\/a><% } else { %><img src=\"<%=obj.image%>\" alt=\"<%=obj.title%>\"\/><% } %><p><% if(obj.link){ %><a href=\"<%=obj.link%>\"><%=obj.title%><\/a><% } else { %><span class=\"\"><%=obj.title%><\/span><% } %><\/p><div class=\"memo\"><%=obj.intro%><\/div><\/div><% }); %><\/div>"
+	}, {
+		"_attributes": {
+			"id": "55",
+			"title": "图文围绕",
+			"group": "图文类",
+			"autolist": "0",
+			"style": [{
+				"name": "内填充(上右下左)",
+				"selector": "# [^repId] .c_pt_06",
+				"property": "padding",
+				"value": "11px 5px 4px 5px"
+			}, {
+				"name": "图片间距",
+				"selector": "#[^repId] img",
+				"property": "margin",
+				"value": "0 5px 0 0"
+			}, {
+				"name": "标题字号",
+				"selector": "#[^repId] .c_tit",
+				"property": "font-size",
+				"value": "12px"
+			}, {
+				"name": "标题行高",
+				"selector": "#[^repId] .c_tit",
+				"property": "line-height",
+				"value": "20px"
+			}, {
+				"name": "标题内填充",
+				"selector": "#[^repId] .c_tit",
+				"property": "padding",
+				"value": "0 0 5px"
+			}, {
+				"name": "摘要字号",
+				"selector": "#[^repId] .c_txt",
+				"property": "font-size",
+				"value": "12px"
+			}, {
+				"name": "摘要行高",
+				"selector": "#[^repId] .c_txt",
+				"property": "line-height",
+				"value": "20px"
+			}, {
+				"name": "摘要内填充",
+				"selector": "#[^repId] .c_txt",
+				"property": "padding",
+				"value": "0"
+			}],
+			"custom": []
+		},
+		"template": "<div><% _.each(data, function(obj,i) { %><div class=\"c_pt_06\"><% if(obj.title) { %><div class=\"c_tit\"><% if(obj.link){ %><a href=\"<%=obj.link%>\"><%=obj.title%><\/a><% } else { %><span class=\"\"><%=obj.title%><\/span><% } %><\/div><% } %><div class=\"c_txt\"><% if(obj.link){ %><a href=\"<%=obj.link%>\"><img src=\"<%=obj.image%>\" alt=\"<%=obj.title%>\"\/><\/a><% } else { %><img src=\"<%=obj.image%>\" alt=\"<%=obj.title%>\"\/><% } %><%=obj.intro%><\/div><\/div><% }); %><\/div>"
+	}, {
+		"_attributes": {
+			"id": "56",
+			"title": "微博语录",
+			"group": "图文类",
+			"autolist": "0",
+			"style": [{
+				"name": "内填充(上右下左)",
+				"selector": "# [^repId]",
+				"property": "padding",
+				"value": "0 0 0 6px"
+			}, {
+				"name": "头像区域宽度",
+				"selector": "#[^repId] .c_pic",
+				"property": "width",
+				"value": "89px"
+			}, {
+				"name": "头像区域内填充",
+				"selector": "#[^repId] .c_pic",
+				"property": "padding",
+				"value": "10px 0 0 0"
+			}],
+			"custom": []
+		},
+		"template": "<div class=\"c_pt_01 c_tb_01\"><% _.each(data, function(obj,i) { %><div class=\"c_picTxt\"><div class=\"c_pic\"><% if(obj.link){ %><a href=\"<%=obj.link%>\"><img src=\"<%=obj.image%>\" alt=\"<%=obj.title%>\"\/><\/a><% } else { %><img src=\"<%=obj.image%>\" alt=\"<%=obj.title%>\"\/><% } %><\/div><div class=\"c_txt\"><div class=\"c_memo\"><%=obj.title_value%>：<%=obj.intro%> <div class=\"c_time\"><%=obj.datetime%><\/div><\/div><\/div><\/div><% }); %><\/div>"
+	}, {
+		"_attributes": {
+			"id": "59",
+			"title": "往日回顾(大)",
+			"group": "其它类",
+			"autolist": "0",
+			"style": [{
+				"name": "对齐方式",
+				"selector": "# [^repId]",
+				"property": "text-align",
+				"value": ["居中:center", "居左:left", "居右:right"]
+			}, {
+				"name": "内填充(上右下左)",
+				"selector": "# [^repId]",
+				"property": "padding",
+				"value": "0"
+			}],
+			"custom": [{
+				"name": "开始日期",
+				"mark": "[^s_startDate]",
+				"value": "2001-1-1"
+			}]
+		},
+		"template": " 				<!-- 往日回顾 begin -->				<div class=\"c_s_05\"><iframe name=\"RL_[^thisId]\" id=\"RL_[^thisId]\" frameborder=\"0\" height=\"210\" width=\"236\" marginheight=\"0\" marginwidth=\"0\" scrolling=\"no\" src=\"\"><\/iframe><\/div>				<script language=\"javascript\">					document.getElementById(\"RL_[^thisId]\").src = \"http:\/\/news.sina.com.cn\/iframe\/news\/calender\/0425\/snapshot.html?startDate=[^s_startDate]&url=\" + encodeURIComponent(\"http:\/\/snapshot.news.sina.com.cn\/subject\/index.php?doc_id=[^s_pid]-[^sd_tid]-[^sd_did]&review_dt=year-month-day&start_dt=[^s_startDate]\") + \"&defaultUrl=[^s_webUrl]\";<\/script>				<!-- 往日回顾 end -->"
+	}, {
+		"_attributes": {
+			"id": "32",
+			"title": "专题内搜索",
+			"group": "其它类",
+			"autolist": "0",
+			"style": [{
+				"name": "内填充(上右下左)",
+				"selector": "#[^repId]",
+				"property": "padding",
+				"value": "10px 0 10px 5px"
+			}, {
+				"name": "对齐方式",
+				"selector": "#[^repId]",
+				"property": "text- align",
+				"value": ["居中:center", "居左:left", "居右:right"]
+			}],
+			"custom": [{
+				"name": "关键字宽度",
+				"mark": "[^key_width]",
+				"value": "90px"
+			}, {
+				"name": "搜索关键字",
+				"mark": " [^searchKey]",
+				"value": "请输关键词"
+			}]
+		},
+		"template": "<div class=\"c_s_02\">	<form name=\"search_[^thisId]\" action=\"http:\/\/search.sina.com.cn\/\" target=\"_blank\">		<p><input type=\"text\" class=\"kw\" style=\"width:[^key_width]\" name=\"q\" value=\"[^searchKey]\" onfocus=\"if(this.value=='[^searchKey]'){this.value=''}\" \/><input type=\"hidden\" name=\"SL2\" value=\"[^s_searchKey]\"><input type=\"hidden\" name=\"PID\" value=\"[^s_pid]\"><input type=\"hidden\" name=\"c\" value=\"news\">			<select size=\"1\" name=\"range\" class=\"opt\">				<option value=\"all\" selected=\"selected\">全文<\/option>				< option value=\"title\">标题<\/option>			<\/select> 			<input type=\"submit\" class=\"sb\" value=\"搜索\" \/><\/p>	<\/form><\/div>"
+	}, {
+		"_attributes": {
+			"id": "57",
+			"title": "微博嵌入模块(最小600宽)",
+			"group": "其它类",
+			"autolist": "0",
+			"style": [{
+				"name": "内填充(上右下左)：",
+				"selector": "# [^repId]",
+				"property": "padding",
+				"value": "0"
+			}],
+			"custom": [{
+				"name": "关键字(多词以@2@分隔)",
+				"mark": " [^t_key]",
+				"value": "大雪"
+			}, {
+				"name": "宽度",
+				"mark": "[^t_width]",
+				"value": "600"
+			}, {
+				"name": "高度",
+				"mark": "[^t_height]",
+				"value": "600"
+			}]
+		},
+		"template": "<div class=\"tblog_w\"><iframe height='[^t_height]' frameborder='0' width='[^t_width]' scrolling='no' src='http:\/\/v.t.sina.com.cn\/widget\/widget_topic_publish.php?tags=[^t_key]&skin=1&isShowPic=1&width=[^t_width]&height=[^t_height]&wordLength=&mblogNum=20'><\/iframe><\/div>"
+	}, {
+		"_attributes": {
+			"id": "60",
+			"title": "微博一键关注",
+			"group": "其它类",
+			"autolist": "0",
+			"style": [{
+				"name": "内填充",
+				"selector": "# [^repId]",
+				"property": "padding",
+				"value": "0"
+			}],
+			"custom": [{
+				"name": "宽度",
+				"mark": "[^width]",
+				"value": "550"
+			}, {
+				"name": "高度",
+				"mark": " [^height]",
+				"value": "230"
+			}, {
+				"name": "uid列表(,分隔)",
+				"mark": " [^uids]",
+				"value": "1644409045,1438922340"
+			}, {
+				"name": "边线颜色",
+				"mark": " [^borderColor]",
+				"value": "C2D9F2"
+			}, {
+				"name": "背景颜色",
+				"mark": " [^bgColor]",
+				"value": "FFFFFF"
+			}, {
+				"name": "链接颜色",
+				"mark": " [^linkColor]",
+				"value": "0082CB"
+			}, {
+				"name": "文字颜色",
+				"mark": " [^txtColor]",
+				"value": "666666"
+			}, {
+				"name": "是否显示标题栏",
+				"mark": " [^showTitle]",
+				"value": ["是:1", "否:0"]
+			}, {
+				"name": "是否显示用户介绍",
+				"mark": " [^showInfo]",
+				"value": ["是:1", "否:0"]
+			}]
+		},
+		"template": "<div><iframe src=\"http:\/\/service.t.sina.com.cn\/widget\/relationship\/bulkfollow.php?width=[^width]&height=[^height]&uids=[^uids]&color=[^borderColor],[^bgColor],[^linkColor],[^txtColor]&showtitle=[^showTitle]&showinfo=[^showInfo]\" width=\"[^width]\" height=\"[^height]\" scrolling=\"no\" frameborder=\"0\"><\/iframe><\/div>"
+	}, {
+		"_attributes": {
+			"id": "58",
+			"title": "焦点图",
+			"group": "其它类",
+			"autolist": "0",
+			"style": [{
+				"name": "内填充(上右下左)：",
+				"selector": "# [^repId]",
+				"property": "padding",
+				"value": "0"
+			}],
+			"custom": [{
+				"name": "样式",
+				"mark": " [^liststyle]",
+				"value": ["普通:normal", "大按钮:longlist", "缩略图:thumbnaillist"]
+			}, {
+				"name": "切换方式",
+				"mark": "[^switchstyle]",
+				"value": ["普通:fade", "横滚:shutterX", "纵滚:shutterY", "横栏:slideX", "纵栏:slideY", "碎片:slide", "随机:random"]
+			}, {
+				"name": "宽度",
+				"mark": "[^t_width]",
+				"value": "300"
+			}, {
+				"name": "高度",
+				"mark": "[^t_height]",
+				"value": "300"
+			}]
+		},
+		"template": "<link href=\"http:\/\/imgcdn.house.sina.com.cn\/2.0\/tool\/focusimage\/[^liststyle].css\" rel=\"stylesheet\" type=\"text\/css\" \/><% var _id=$.now(); print('<div id=\"'+_id+'\" style=\"width:[^t_width]px;height:[^t_height]px\"><\/div>');var images='',links='',texts=''; _.each(data, function(obj,i) {images+=',\"'+obj.image+'\"';texts+=',\"'+obj.title+'\"';links+=',\"'+obj.link+'\"'}); links=links.replace(\/^,\/,'[')+']'; images=images.replace(\/^,\/,'[')+']'; texts=texts.replace(\/^,\/,'[')+']';;\/*<%= obj.link %><%= obj.title %><%= obj.image %>*\/ %><script> dj.get('tool.focusimage').ready(function () {$('#'+<%= _id %>).focusimage({images:<%= images %>, links:<%= links %>, texts:<%= texts %>, order:'default', listStyle: \"classtest\",thumbnails:<%= images %>,switchStyle: \"[^switchstyle]\"})}); <\/script>"
+	}, {
+		"_attributes": {
+			"id": "2998",
+			"title": "家居就普通文字块",
+			"group": "家居就类",
+			"disNum": 1,
+			"autolist": "1",
+			"style": [{
+				"name": "宽度",
+				"selector": "#[^repId]",
+				"property": "width",
+				"value": "90px"
+			}, {
+				"name": "高度",
+				"selector": "#[^repId]",
+				"property": "height",
+				"value": "50px"
+			}, {
+				"name": "行高",
+				"selector": "#[^repId]",
+				"property": "line-height",
+				"value": "20px"
+			}, {
+				"name": "间距margin",
+				"selector": "#[^repId] a",
+				"property": "margin",
+				"value": "0 50px"
+			}, {
+				"name": "填充padding",
+				"selector": "#[^repId]",
+				"property": "padding",
+				"value": "0 50px"
+			}, {
+				"name": "大背景",
+				"selector": "#[^repId]",
+				"property": "background-image",
+				"value": "默认"
+			}, {
+				"name": "字体大小",
+				"selector": "#[^repId] a",
+				"property": "font-size",
+				"value": "14px"
+			}, {
+				"name": "字体粗细",
+				"selector": "#[^repId] a",
+				"property": "font-weight",
+				"value": ["正常:normal", "粗体:bold", "更粗:bolder"]
+			}, {
+				"name": "字体颜色",
+				"selector": "#[^repId] a",
+				"property": "color",
+				"value": "#000000"
+			}, {
+				"name": "字体下划线",
+				"selector": "#[^repId] a",
+				"property": "text-decoration",
+				"value": ["有:underline", "无:none"]
+			}],
+			"custom": []
+		},
+		"template": "<div class=\"jjzt_textbox\"><% _.each(data, function(obj,i) { %><div><%=obj.title%><\/div><% }); %><!-- 系统标记 专题英文名:\"[^s_title_en]\", 专题子栏目:[\"[^s_subList]\"], limit:[^s_dataLimit] --><\/div>"
+	}, {
+		"_attributes": {
+			"id": "3011",
+			"title": "家居就普通文字块2",
+			"group": "家居就类",
+			"disNum": 6,
+			"autolist": "1",
+			"style": [{
+				"name": "宽度",
+				"selector": "#[^repId] .jjzt_textbox2 div",
+				"property": "width",
+				"value": ""
+			}, {
+				"name": "高度",
+				"selector": "#[^repId] .jjzt_textbox2 div",
+				"property": "height",
+				"value": ""
+			}, {
+				"name": "行高",
+				"selector": "#[^repId] .jjzt_textbox2 div",
+				"property": "line-height",
+				"value": "20px"
+			}, {
+				"name": "间距margin",
+				"selector": "#[^repId] .jjzt_textbox2 div",
+				"property": "margin",
+				"value": ""
+			}, {
+				"name": "填充padding",
+				"selector": "#[^repId] .jjzt_textbox2 div",
+				"property": "padding",
+				"value": ""
+			}, {
+				"name": "背景",
+				"selector": "#[^repId] .jjzt_textbox2 div",
+				"property": "background-image",
+				"value": "默认"
+			}, {
+				"name": "大背景",
+				"selector": "#[^repId] .jjzt_textbox2",
+				"property": "background-image",
+				"value": "默认"
+			}, {
+				"name": "对齐",
+				"selector": "#[^repId] .jjzt_textbox2 div",
+				"property": "text-align",
+				"value": ["默认:", "中:center", "左:left", "右:right"]
+			}, {
+				"name": "字体大小",
+				"selector": "#[^repId] .jjzt_textbox2 a",
+				"property": "font-size",
+				"value": "14px"
+			}, {
+				"name": "字体粗细",
+				"selector": "#[^repId] .jjzt_textbox2 a",
+				"property": "font-weight",
+				"value": ["正常:normal", "粗体:bold", "更粗:bolder"]
+			}, {
+				"name": "字体颜色",
+				"selector": "#[^repId] .jjzt_textbox2 a",
+				"property": "color",
+				"value": "#000000"
+			}, {
+				"name": "字体下划线",
+				"selector": "#[^repId] .jjzt_textbox2 a",
+				"property": "text-decoration",
+				"value": ["有:underline", "无:none"]
+			}],
+			"custom": []
+		},
+		"template": "<div class=\"jjzt_textbox2\"><% _.each(data, function(obj,i) { %><div><a href=\"<%=obj.link%>\"><%=obj.title%><\/a><\/div><% }); %><!-- 系统标记 专题英文名:\"[^s_title_en]\", 专题子栏目:[\"[^s_subList]\"], limit:[^s_dataLimit] --><\/div>"
+	}, {
+		"_attributes": {
+			"id": "3012",
+			"title": "flash通用数据模块",
+			"group": "家居就类",
+			"disNum": 6,
+			"autolist": "1",
+			"style": [{
+				"name": "宽度",
+				"selector": "#[^repId] .jjzt_flashdata",
+				"property": "width",
+				"value": ""
+			}, {
+				"name": "高度",
+				"selector": "#[^repId] .jjzt_flashdata",
+				"property": "height",
+				"value": ""
+			}, {
+				"name": "间距margin",
+				"selector": "#[^repId] .jjzt_flashdata",
+				"property": "margin",
+				"value": ""
+			}, {
+				"name": "填充padding",
+				"selector": "#[^repId] .jjzt_flashdata",
+				"property": "padding",
+				"value": ""
+			}, {
+				"name": "背景",
+				"selector": "#[^repId] .jjzt_flashdata",
+				"property": "background-image",
+				"value": "默认"
+			}],
+			"custom": [{
+				"name": "flash类型",
+				"mark": "[^flashType]",
+				"value": ["type1(190*350):type1", "type2(250*250):type2"]
+			}]
+		},
+		"template": "<div class=\"jjzt_flashdata\" flashType=\"[^flashType]\">flash数据<div style=\"display:none\"><% _.each(data, function(obj,i) { %><div><em><%=obj.link%><\/em><em><%=obj.title%><\/em><em><%=obj.logo_m%><\/em><em><%=obj.default_price%><\/em><em><%=obj.promo_price%><\/em><em><%=obj.id%><\/em><\/div><% }); %><\/div><!-- 系统标记 专题英文名:\"[^s_title_en]\", 专题子栏目:[\"[^s_subList]\"], limit:[^s_dataLimit] --><\/div>"
+	}, {
+		"_attributes": {
+			"id": "2999",
+			"title": "家居就导航",
+			"group": "家居就类",
+			"disNum": 6,
+			"autolist": "1",
+			"style": [{
+				"name": "按钮宽度",
+				"selector": "#[^repId] a",
+				"property": "width",
+				"value": "90px"
+			}, {
+				"name": "按钮高度",
+				"selector": "#[^repId] a",
+				"property": "height",
+				"value": "50px"
+			}, {
+				"name": "按钮行高",
+				"selector": "#[^repId] a",
+				"property": "line-height",
+				"value": "50px"
+			}, {
+				"name": "间距margin",
+				"selector": "#[^repId] a",
+				"property": "margin",
+				"value": "0 50px"
+			}, {
+				"name": "大背景",
+				"selector": "#[^repId] .jjzt_menu",
+				"property": "background-image",
+				"value": "默认"
+			}, {
+				"name": "按钮背景",
+				"selector": "#[^repId] a",
+				"property": "background-image",
+				"value": "默认"
+			}, {
+				"name": "字体大小",
+				"selector": "#[^repId] a",
+				"property": "font-size",
+				"value": "14px"
+			}, {
+				"name": "字体粗细",
+				"selector": "#[^repId] a",
+				"property": "font-weight",
+				"value": ["正常:normal", "粗体:bold", "更粗:bolder"]
+			}, {
+				"name": "字体颜色",
+				"selector": "#[^repId] a",
+				"property": "color",
+				"value": "#000000"
+			}, {
+				"name": "字体下划线",
+				"selector": "#[^repId] a",
+				"property": "text-decoration",
+				"value": ["有:underline", "无:none"]
+			}],
+			"custom": [{
+				"name": "按钮hover背景",
+				"mark": "[^hoverBG]",
+				"value": "默认"
+			}]
+		},
+		"template": "<div class=\"jjzt_menu\" hoverbg=\"[^hoverBG]\"><% _.each(data, function(obj,i) { %><a href=\"<%=obj.link%>\"><% if(obj.image){%><img src=\"<%=obj.image%>\" \/><%} else {%><%=obj.title%><%}%><\/a><% }); %><!-- 系统标记 专题英文名:\"[^s_title_en]\", 专题子栏目:[\"[^s_subList]\"], limit:[^s_dataLimit] --><\/div><!--jj_nav_mark-->"
+	}, {
+		"_attributes": {
+			"id": "3000",
+			"title": "图片模块1",
+			"group": "家居就类",
+			"disNum": 5,
+			"autolist": "1",
+			"style": [{
+				"name": "字体大小",
+				"selector": "#[^repId] a",
+				"property": "font-size",
+				"value": "14px"
+			}, {
+				"name": "字体粗细",
+				"selector": "#[^repId] a",
+				"property": "font-weight",
+				"value": ["正常:normal", "粗体:bold", "更粗:bolder"]
+			}, {
+				"name": "字体颜色",
+				"selector": "#[^repId] a",
+				"property": "color",
+				"value": "#000000"
+			}, {
+				"name": "字体下划线",
+				"selector": "#[^repId] a",
+				"property": "text-decoration",
+				"value": ["有:underline", "无:none"]
+			}],
+			"custom": []
+		},
+		"template": "<div class=\"lhh4_focusIMG\"><% _.each(data, function(obj,i) { %><div class=\"<% if(i == 0){ %> div1<% }else{%>div2<%}%>\"><a href=\"<%=obj.link%>\" target=\"_blank\"><img src=\"<%=obj.logo_m%>\" alt=\"<%=obj.title%>\" title=\"<%=obj.title%>\"><\/a><span><\/span><a class=\"link1\" target=\"_blank\" href=\"<%=obj.link%>\"><p>市场价：<em class=\"em1\"><%=obj.default_price%><\/em><br>促销价：<em><%=obj.promo_price%><\/em><br><%=obj.link%><\/p><\/a><\/div><% }); %><!-- 系统标记 专题英文名:\"[^s_title_en]\", 专题子栏目:[\"[^s_subList]\"], limit:[^s_dataLimit] --><\/div>"
+	}, {
+		"_attributes": {
+			"id": "3001",
+			"title": "商品模块1",
+			"group": "家居就类",
+			"disNum": 8,
+			"autolist": "1",
+			"style": [{
+				"name": "字体大小",
+				"selector": "#[^repId] a",
+				"property": "font-size",
+				"value": "14px"
+			}, {
+				"name": "字体粗细",
+				"selector": "#[^repId] a",
+				"property": "font-weight",
+				"value": ["正常:normal", "粗体:bold", "更粗:bolder"]
+			}, {
+				"name": "字体颜色",
+				"selector": "#[^repId] a",
+				"property": "color",
+				"value": "#000000"
+			}, {
+				"name": "字体下划线",
+				"selector": "#[^repId] a",
+				"property": "text-decoration",
+				"value": ["有:underline", "无:none"]
+			}],
+			"custom": []
+		},
+		"template": "<ul class=\"jj_item_ul clearfix\"><% _.each(data, function(obj,i) { %><li><div class=\"img\"><a href=\"<%=obj.link%>\" target=\"_blank\"><img src=\"<%=obj.logo_s%>\" title=\"<%=obj.title%>\" alt=\"<%=obj.title%>\"><\/a><\/div><h3><cite>促销价：<\/cite><span><%=obj.promo_price%>元\/<%=obj.unit%><\/span><\/h3><h4><cite><% if(obj.thrift){ %><%=obj.thrift%><% }else{ %>市场价<% } %>：<\/cite><span><%=obj.default_price%>元\/<%=obj.unit%><\/span><\/h4><div class=\"sel_table\" style=\"z-index: 0; \"><div class=\"sel\"><b>一淘最低价<\/b><b class=\"b2\"><%=obj.custom_price1%>元\/<%=obj.unit%><\/b><\/div><\/div><h2><a href=\"<%=obj.link%>\" target=\"_blank\"><%=obj.title%><\/a><\/h2><\/li><% }); %><!-- 系统标记 专题英文名:\"[^s_title_en]\", 专题子栏目:[\"[^s_subList]\"], limit:[^s_dataLimit] --><\/ul>"
+	}, {
+		"_attributes": {
+			"id": "3013",
+			"title": "商品模块3",
+			"group": "家居就类",
+			"disNum": 6,
+			"autolist": "1",
+			"style": [{
+				"name": "字体大小",
+				"selector": "#[^repId] a",
+				"property": "font-size",
+				"value": "14px"
+			}, {
+				"name": "字体粗细",
+				"selector": "#[^repId] a",
+				"property": "font-weight",
+				"value": ["正常:normal", "粗体:bold", "更粗:bolder"]
+			}, {
+				"name": "字体颜色",
+				"selector": "#[^repId] a",
+				"property": "color",
+				"value": "#000000"
+			}, {
+				"name": "字体下划线",
+				"selector": "#[^repId] a",
+				"property": "text-decoration",
+				"value": ["有:underline", "无:none"]
+			}],
+			"custom": []
+		},
+		"template": "<ul class=\"jj_item_ul2 clearfix\"><% _.each(data, function(obj,i) { %><% if(i%2 == 0){ %><div class=\"cols\"><% }%><li><div class=\"img\"><a href=\"<%=obj.link%>\" target=\"_blank\"><img src=\"<%=obj.logo_s%>\" title=\"<%=obj.title%>\" alt=\"<%=obj.title%>\"><\/a><\/div><h3><cite>促销价：<\/cite><span><%=obj.promo_price%>元\/<%=obj.unit%><\/span><\/h3><h4><cite><% if(obj.thrift){ %><%=obj.thrift%><% }else{ %>市场价<% } %>：<\/cite><span><%=obj.default_price%>元\/<%=obj.unit%><\/span><\/h4><div class=\"sel_table\" style=\"z-index: 0; \"><div class=\"sel\"><b>一淘最低价<\/b><b class=\"b2\"><%=obj.custom_price1%>元\/<%=obj.unit%><\/b><\/div><\/div><h2><a href=\"<%=obj.link%>\" target=\"_blank\"><%=obj.title%><\/a><\/h2><\/li><% if(i%2 == 1){ %><\/div><% }%>  <%});%><\/ul>"
+	}, {
+		"_attributes": {
+			"id": "3005",
+			"title": "图片模块2",
+			"group": "家居就类",
+			"disNum": 5,
+			"autolist": "1",
+			"style": [{
+				"name": "图片宽度",
+				"selector": "#[^repId] img",
+				"property": "width",
+				"value": "206px"
+			}, {
+				"name": "图片高度",
+				"selector": "#[^repId] img",
+				"property": "height",
+				"value": "255px"
+			}],
+			"custom": []
+		},
+		"template": "<ul class=\"sl3_c_ul\"><% _.each(data,function(obj,i){%><li><div class=\"sl3_c_padd\"><img src=\"<%=obj.logo_s%>\"\/><a href=\"<%=obj.link%>\"><%=obj.title%><\/a><\/div><\/li><%});%><\/ul>"
+	}, {
+		"_attributes": {
+			"id": "3006",
+			"title": "商品模块2",
+			"group": "家居就类",
+			"disNum": 8,
+			"autolist": "1",
+			"style": [{
+				"name": "字体大小",
+				"selector": "#[^repId] a",
+				"property": "font-size",
+				"value": "14px"
+			}, {
+				"name": "字体粗细",
+				"selector": "#[^repId] a",
+				"property": "font-weight",
+				"value": ["正常:normal", "粗体:bold", "更粗:bolder"]
+			}, {
+				"name": "字体颜色",
+				"selector": "#[^repId] a",
+				"property": "color",
+				"value": "#000000"
+			}, {
+				"name": "字体下划线",
+				"selector": "#[^repId] a",
+				"property": "text-decoration",
+				"value": ["有:underline", "无:none"]
+			}],
+			"custom": []
+		},
+		"template": "<ul class=\"item_ul_T3 clearfix\"><% _.each(data, function(obj,i) { %><li class=\"cols3\"><div class=\"item_goods\"><div class=\"img\"><a href=\"<%=obj.link%>\" target=\"_blank\"><img src=\"<%=obj.logo_s%>\" title=\"<%=obj.title%>\" alt=\"<%=obj.title%>\"><\/a><\/div><h3><cite>促销价：<\/cite><span><%=obj.promo_price%>元\/<%=obj.unit%><\/span><\/h3><h4><cite><% if(obj.thrift){ %><%=obj.thrift%><% }else{ %>市场价<% }%>：<\/cite><span><%=obj.default_price%>元\/<%=obj.unit%><\/span><\/h4><div class=\"sel_table_T3\" style=\"z-index:0;\"><div class=\"sel\"><b>一淘最低价<\/b><b class=\"b2\"><%=obj.custom_price1%>元\/<%=obj.unit%><\/b><\/div><\/div><h2 class=\"none_back\"><a href=\"<%=obj.link%>\" target=\"_blank\"><%=obj.title%><\/a><\/h2><% }); %><!-- 系统标记 专题英文名:\"[^s_title_en]\", 专题子栏目:[\"[^s_subList]\"], limit:[^s_dataLimit] --><\/ul>"
+	}, {
+		"_attributes": {
+			"id": "3007",
+			"title": "相关专题模块3",
+			"group": "家居就类",
+			"disNum": 8,
+			"autolist": "1",
+			"style": [{
+				"name": "字体大小",
+				"selector": "#[^repId] a",
+				"property": "font-size",
+				"value": "14px"
+			}, {
+				"name": "字体粗细",
+				"selector": "#[^repId] a",
+				"property": "font-weight",
+				"value": ["正常:normal", "粗体:bold", "更粗:bolder"]
+			}, {
+				"name": "字体颜色",
+				"selector": "#[^repId] a",
+				"property": "color",
+				"value": "#000000"
+			}, {
+				"name": "字体下划线",
+				"selector": "#[^repId] a",
+				"property": "text-decoration",
+				"value": ["有:underline", "无:none"]
+			}],
+			"custom": []
+		},
+		"template": "<ul class=\"jj_zt_ul\"><% _.each(data, function(obj,i) { %><li><a target=\"_blank\" href=\"<%=obj.link%>\"><img width=\"230\" height=\"130\" src=\"<%=obj.logo_s%>\"\/><\/a><\/li><% }); %><\/ul>"
+	}, {
+		"_attributes": {
+			"id": "3008",
+			"title": "横条图片模块1",
+			"group": "家居就类",
+			"disNum": 1,
+			"autolist": "1",
+			"style": [{
+				"name": "间距",
+				"selector": "#[^repId] img",
+				"property": "margin",
+				"value": "0px"
+			}, {
+				"name": "宽度",
+				"selector": "#[^repId] img",
+				"property": "width",
+				"value": "950px"
+			}, {
+				"name": "高度",
+				"selector": "#[^repId] img",
+				"property": "height",
+				"value": "47px"
+			}],
+			"custom": []
+		},
+		"template": "<div class=\"center\"><% _.each(data, function(obj,i) { %><img src=\"<%=obj.logo_s%>\"\/><% }); %><\/div>"
+	}, {
+		"_attributes": {
+			"id": "3009",
+			"title": "焦点图模块2",
+			"group": "家居就类",
+			"disNum": 5,
+			"autolist": "1",
+			"style": [{
+				"name": "背景图片",
+				"selector": "#[^repId] .sl1_pic_bj",
+				"property": "background",
+				"value": "默认"
+			}, {
+				"name": "重复方式",
+				"selector": "#[^repId] .sl1_pic_bj",
+				"property": "background-repeat",
+				"value": ["不重复(no-repeat):no-repeat", "重复(repeat):repeat", "横向重复(repeat-x):repeat-x", "纵向重复(repeat-y):repeat-y"]
+			}, {
+				"name": "左侧按钮",
+				"selector": "#[^repId] .sl1_left_btn",
+				"property": "background",
+				"value": "默认"
+			}, {
+				"name": "右侧按钮",
+				"selector": "#[^repId] .sl1_right_btn",
+				"property": "background",
+				"value": "默认"
+			}],
+			"custom": []
+		},
+		"template": "<div class=\"sl1_pic_bj center\"><a href=\"#\" class=\"sl1_left_btn\"><\/a><div class=\"sl1_g_gallery_list\"><div class=\"sl1_g_gallery\"><ul><% _.each(data, function(obj,i) { %><li><a href=\"#\"><img src=\"<%=obj.logo_s%>\"\/><\/a><\/li><% }); %><\/ul><\/div><\/div><a href=\"#\" class=\"sl1_right_btn\"><\/a><\/div>"
+	}, {
+		"_attributes": {
+			"id": "3010",
+			"title": "商品模块4",
+			"group": "家居就类",
+			"disNum": 5,
+			"autolist": "1",
+			"style": [{
+				"name": "字体大小",
+				"selector": "#[^repId] a",
+				"property": "font-size",
+				"value": "14px"
+			}, {
+				"name": "字体粗细",
+				"selector": "#[^repId] a",
+				"property": "font-weight",
+				"value": ["正常:normal", "粗体:bold", "更粗:bolder"]
+			}, {
+				"name": "字体颜色",
+				"selector": "#[^repId] a",
+				"property": "color",
+				"value": "#000000"
+			}, {
+				"name": "字体下划线",
+				"selector": "#[^repId] a",
+				"property": "text-decoration",
+				"value": ["有:underline", "无:none"]
+			}],
+			"custom": []
+		},
+		"template": "<ul class=\"item_ul_T1 clearfix\"><% _.each(data, function(obj,i) { %><li class=\"<% if(i==0){ %> cols1<% }else{%>cols_s1<%}%>\"><div class=\"item_goods1\"><div class=\"img\"><a href=\"<%=obj.link%>\" targe=\"_blank\"><img src=\"<% if(i==0){ %> <%=obj.logo_m%><% }else{%><%=obj.logo_s%><%}%>\" title=\"<%=obj.title%>\" alt=\"<%=obj.title%>\"\/><\/a><\/div><h3><cite>促销价：<\/cite><span><%=obj.promo_price%>元\/<%=obj.unit%><\/span><\/h3><h4><cite><% if(obj.thrift){ %><%=obj.thrift%><% }else{ %>市场价<% }%>：<\/cite><span><%=obj.default_price%>元\/<%=obj.unit%><\/span><\/h4><div class=\"sel_table_T1\" style=\"z-index:0;\"><div class=\"sel\"><b>一淘最低价<\/b><b class=\"b2\"><%=obj.custom_price1%>元\/<%=obj.unit%><\/b><\/div><\/div><h2 class=\"none_back\"><a href=\"<%=obj.link%>\" target=\"_blank\"><%=obj.title%><\/a><\/h2><% }); %><!-- 系统标记 专题英文名:\"[^s_title_en]\", 专题子栏目:[\"[^s_subList]\"], limit:[^s_dataLimit] --><\/ul>"
+	}, {
+		"_attributes": {
+			"id": "3030",
+			"title": "商品模块5",
+			"group": "家居就类",
+			"disNum": 5,
+			"autolist": "1",
+			"style": [{
+				"name": "字体大小",
+				"selector": "#[^repId] a",
+				"property": "font-size",
+				"value": "14px"
+			}, {
+				"name": "字体粗细",
+				"selector": "#[^repId] a",
+				"property": "font-weight",
+				"value": ["正常:normal", "粗体:bold", "更粗:bolder"]
+			}, {
+				"name": "字体颜色",
+				"selector": "#[^repId] a",
+				"property": "color",
+				"value": "#000000"
+			}, {
+				"name": "字体下划线",
+				"selector": "#[^repId] a",
+				"property": "text-decoration",
+				"value": ["有:underline", "无:none"]
+			}],
+			"custom": []
+		},
+		"template": "<ul class=\"item_ul_T1 clearfix\"><% _.each(data, function(obj,i) { %><li class=\"cols1\"><div class=\"item_goods1\"><div class=\"img\"><a href=\"<%=obj.link%>\" targe=\"_blank\"><img src=\"<%=obj.logo_m%>\" title=\"<%=obj.title%>\" alt=\"<%=obj.title%>\"\/><\/a><\/div><h3><cite>促销价：<\/cite><span><%=obj.promo_price%>元\/<%=obj.unit%><\/span><\/h3><h4><cite><% if(obj.thrift){ %><%=obj.thrift%><% }else{ %>市场价<% }%>：<\/cite><span><%=obj.default_price%>元\/<%=obj.unit%><\/span><\/h4><div class=\"sel_table_T1\" style=\"z-index:0;\"><div class=\"sel\"><b>一淘最低价<\/b><b class=\"b2\"><%=obj.custom_price1%>元\/<%=obj.unit%><\/b><\/div><\/div><h2 class=\"none_back\"><a href=\"<%=obj.link%>\" target=\"_blank\"><%=obj.title%><\/a><\/h2><% }); %><!-- 系统标记 专题英文名:\"[^s_title_en]\", 专题子栏目:[\"[^s_subList]\"], limit:[^s_dataLimit] --><\/ul>"
+	}, {
+		"_attributes": {
+			"id": "3031",
+			"title": "返回顶部模块2",
+			"group": "家居就类",
+			"disNum": 5,
+			"autolist": "1",
+			"style": [{
+				"name": "字体大小",
+				"selector": "#[^repId] a",
+				"property": "font-size",
+				"value": "14px"
+			}, {
+				"name": "字体粗细",
+				"selector": "#[^repId] a",
+				"property": "font-weight",
+				"value": ["正常:normal", "粗体:bold", "更粗:bolder"]
+			}, {
+				"name": "字体颜色",
+				"selector": "#[^repId] a",
+				"property": "color",
+				"value": "#000000"
+			}, {
+				"name": "字体下划线",
+				"selector": "#[^repId] a",
+				"property": "text-decoration",
+				"value": ["有:underline", "无:none"]
+			}, {
+				"name": "分割线图片",
+				"selector": "#[^repId] .line",
+				"property": "background-image",
+				"value": "默认"
+			}, {
+				"name": "分割线图片宽度",
+				"selector": "#[^repId] .line",
+				"property": "width",
+				"value": "102px"
+			}, {
+				"name": "分割线图片高度",
+				"selector": "#[^repId] .line",
+				"property": "height",
+				"value": "7px"
+			}, {
+				"name": "分割线重复方式",
+				"selector": "#[^repId] .line",
+				"property": "background-repeat",
+				"value": ["不重复:no-repeat", "重复:repeat", "横向重复:repeat-x", "纵向重复:repeat-y"]
+			}, {
+				"name": "背景图片",
+				"selector": "#[^repId] .jj_fd_content_top",
+				"property": "background",
+				"value": "默认"
+			}, {
+				"name": "背景图片宽度",
+				"selector": "#[^repId] .jj_fd_content_top",
+				"property": "width",
+				"value": "111px"
+			}],
+			"custom": []
+		},
+		"template": "<div class=\"jj_fd_content_top\"><% _.each(data, function(obj,i) { %><a href=\"<%=obj.anchor%>\" class=\"line\"><%=obj.title%><\/a><% }); %><\/div>"
+	}, {
+		"_attributes": {
+			"id": "3034",
+			"title": "商品模块8",
+			"group": "家居就类",
+			"disNum": 1,
+			"autolist": "1",
+			"style": [{
+				"name": "字体大小",
+				"selector": "#[^repId] a",
+				"property": "font-size",
+				"value": "14px"
+			}, {
+				"name": "字体粗细",
+				"selector": "#[^repId] a",
+				"property": "font-weight",
+				"value": ["正常:normal", "粗体:bold", "更粗:bolder"]
+			}, {
+				"name": "字体颜色",
+				"selector": "#[^repId] a",
+				"property": "color",
+				"value": "#000000"
+			}, {
+				"name": "字体下划线",
+				"selector": "#[^repId] a",
+				"property": "text-decoration",
+				"value": ["有:underline", "无:none"]
+			}, {
+				"name": "背景图片",
+				"selector": "#[^repId] .item_ol_a",
+				"property": "background",
+				"value": "默认"
+			}, {
+				"name": "背景图片宽度",
+				"selector": "#[^repId] .item_ol_a",
+				"property": "width",
+				"value": "111px"
+			}],
+			"custom": []
+		},
+		"template": "<ul class=\"item_ol_a item_r clearfix\"><li class=\"col_3\"><% _.each(data, function(obj,i) { %><div class=\"item_wrap\"><div class=\"item_box gray mb1\"><h2><a href=\"<%=obj.link%>\" target=\"_blank\"><%=obj.title%><\/a><\/h2><h3><cite>惊喜价：<\/cite><span><%=obj.promo_price%>元\/<%=obj.unit%><\/span><\/h3><h4><cite><% if(obj.thrift){ %><%=obj.thrift%><% }else{ %>市场价<% }%>：<\/cite><span><%=obj.default_price%>元\/<%=obj.unit%><\/span><\/h4><\/div><div class=\"img\"><a href=\"<%=obj.link%>\" target=\"_blank\"><img src=\"<%=obj.logo_m%>\" title=\"<%=obj.title%>\" alt=\"<%=obj.title%>\"\/><\/a><\/div><\/div><% }); %><\/li><\/ul>"
+	}, {
+		"_attributes": {
+			"id": "3037",
+			"title": "商品模块11",
+			"group": "家居就类",
+			"disNum": 1,
+			"autolist": "1",
+			"style": [{
+				"name": "字体大小",
+				"selector": "#[^repId] a",
+				"property": "font-size",
+				"value": "14px"
+			}, {
+				"name": "字体粗细",
+				"selector": "#[^repId] a",
+				"property": "font-weight",
+				"value": ["正常:normal", "粗体:bold", "更粗:bolder"]
+			}, {
+				"name": "字体颜色",
+				"selector": "#[^repId] a",
+				"property": "color",
+				"value": "#000000"
+			}, {
+				"name": "字体下划线",
+				"selector": "#[^repId] a",
+				"property": "text-decoration",
+				"value": ["有:underline", "无:none"]
+			}, {
+				"name": "背景图片",
+				"selector": "#[^repId] .item_ol_a",
+				"property": "background",
+				"value": "默认"
+			}, {
+				"name": "背景图片宽度",
+				"selector": "#[^repId] .item_ol_a",
+				"property": "width",
+				"value": "111px"
+			}],
+			"custom": []
+		},
+		"template": "<ul class=\"item_ol_a item_r clearfix\"><li class=\"col_3\"><% _.each(data, function(obj,i) { %><div class=\"item_wrap\"><div class=\"img\"><a href=\"<%=obj.link%>\" target=\"_blank\"><img src=\"<%=obj.logo_m%>\" title=\"<%=obj.title%>\" alt=\"<%=obj.title%>\"\/><\/a><\/div><div class=\"item_box gray mt1\"><h2><a href=\"<%=obj.link%>\" target=\"_blank\"><%=obj.title%><\/a><\/h2><h3><cite>惊喜价：<\/cite><span><%=obj.promo_price%>元\/<%=obj.unit%><\/span><\/h3><h4><cite><% if(obj.thrift){ %><%=obj.thrift%><% }else{ %>市场价<% }%>：<\/cite><span><%=obj.default_price%>元\/<%=obj.unit%><\/span><\/h4><\/div><\/div><% }); %><\/li><\/ul>"
+	}, {
+		"_attributes": {
+			"id": "3035",
+			"title": "商品模块9",
+			"group": "家居就类",
+			"disNum": 2,
+			"autolist": "1",
+			"style": [{
+				"name": "字体大小",
+				"selector": "#[^repId] a",
+				"property": "font-size",
+				"value": "14px"
+			}, {
+				"name": "字体粗细",
+				"selector": "#[^repId] a",
+				"property": "font-weight",
+				"value": ["正常:normal", "粗体:bold", "更粗:bolder"]
+			}, {
+				"name": "字体颜色",
+				"selector": "#[^repId] a",
+				"property": "color",
+				"value": "#000000"
+			}, {
+				"name": "字体下划线",
+				"selector": "#[^repId] a",
+				"property": "text-decoration",
+				"value": ["有:underline", "无:none"]
+			}, {
+				"name": "背景图片",
+				"selector": "#[^repId] .item_ol_a",
+				"property": "background",
+				"value": "默认"
+			}, {
+				"name": "背景图片宽度",
+				"selector": "#[^repId] .item_ol_a",
+				"property": "width",
+				"value": "111px"
+			}],
+			"custom": []
+		},
+		"template": "<ul class=\"item_ol_a item_r clearfix\"><li class=\"col_2\"><% _.each(data, function(obj,i) { %><div class=\"item_wrap <% if(i==0){ %>mb1<% } %>\"><div class=\"item_box <% if(i==0){ %>gray mb1<% } %>\"><h2><a href=\"<%=obj.link%>\" target=\"_blank\"><%=obj.title%><\/a><\/h2><h3><cite>惊喜价：<\/cite><span><%=obj.promo_price%>元\/<%=obj.unit%><\/span><\/h3><h4><cite><% if(obj.thrift){ %><%=obj.thrift%><% }else{ %>市场价<% }%>：<\/cite><span><%=obj.default_price%>元\/<%=obj.unit%><\/span><\/h4><\/div><div class=\"img\"><a href=\"<%=obj.link%>\" target=\"_blank\"><img src=\"<%=obj.logo_s%>\" title=\"<%=obj.title%>\" alt=\"<%=obj.title%>\"\/><\/a><\/div><\/div><% }); %><\/li><\/ul>"
+	}, {
+		"_attributes": {
+			"id": "3036",
+			"title": "商品模块10",
+			"group": "家居就类",
+			"disNum": 2,
+			"autolist": "1",
+			"style": [{
+				"name": "字体大小",
+				"selector": "#[^repId] a",
+				"property": "font-size",
+				"value": "14px"
+			}, {
+				"name": "字体粗细",
+				"selector": "#[^repId] a",
+				"property": "font-weight",
+				"value": ["正常:normal", "粗体:bold", "更粗:bolder"]
+			}, {
+				"name": "字体颜色",
+				"selector": "#[^repId] a",
+				"property": "color",
+				"value": "#000000"
+			}, {
+				"name": "字体下划线",
+				"selector": "#[^repId] a",
+				"property": "text-decoration",
+				"value": ["有:underline", "无:none"]
+			}, {
+				"name": "背景图片",
+				"selector": "#[^repId] .item_ol_a",
+				"property": "background",
+				"value": "默认"
+			}, {
+				"name": "背景图片宽度",
+				"selector": "#[^repId] .item_ol_a",
+				"property": "width",
+				"value": "111px"
+			}],
+			"custom": []
+		},
+		"template": "<ul class=\"item_ol_a item_r clearfix\"><li class=\"col_1\"><% _.each(data, function(obj,i) { %><div class=\"item_wrap<% if(i==1){ %>mt1<% } %>\"><div class=\"img\"><a href=\"<%=obj.link%>\" target=\"_blank\"><img src=\"<%=obj.logo_s%>\" title=\"<%=obj.title%>\" alt=\"<%=obj.title%>\"\/><\/a><\/div><div class=\"item_box <% if(i==1){ %>gray<% } %> mt1\"><h2><a href=\"<%=obj.link%>\" target=\"_blank\"><%=obj.title%><\/a><\/h2><h3><cite>惊喜价：<\/cite><span><%=obj.promo_price%>元\/<%=obj.unit%><\/span><\/h3><h4><cite><% if(obj.thrift){ %><%=obj.thrift%><% }else{ %>市场价<% }%>：<\/cite><span><%=obj.default_price%>元\/<%=obj.unit%><\/span><\/h4><\/div><\/div><% }); %><\/li><\/ul>"
+	}, {
+		"_attributes": {
+			"id": "3038",
+			"title": "商品模块12",
+			"group": "家居就类",
+			"disNum": 2,
+			"autolist": "1",
+			"style": [{
+				"name": "字体大小",
+				"selector": "#[^repId] a",
+				"property": "font-size",
+				"value": "14px"
+			}, {
+				"name": "字体粗细",
+				"selector": "#[^repId] a",
+				"property": "font-weight",
+				"value": ["正常:normal", "粗体:bold", "更粗:bolder"]
+			}, {
+				"name": "字体颜色",
+				"selector": "#[^repId] a",
+				"property": "color",
+				"value": "#000000"
+			}, {
+				"name": "字体下划线",
+				"selector": "#[^repId] a",
+				"property": "text-decoration",
+				"value": ["有:underline", "无:none"]
+			}, {
+				"name": "背景图片",
+				"selector": "#[^repId] .item_ol_a",
+				"property": "background",
+				"value": "默认"
+			}, {
+				"name": "背景图片宽度",
+				"selector": "#[^repId] .item_ol_a",
+				"property": "width",
+				"value": "111px"
+			}],
+			"custom": []
+		},
+		"template": "<ul class=\"item_ol_a item_r clearfix\"><li class=\"col_1\"><% _.each(data, function(obj,i) { %><div class=\"item_wrap<% if(i==1){ %>mt1<% } %>\"><div class=\"img\"><a href=\"<%=obj.link%>\" target=\"_blank\"><img src=\"<%=obj.logo_s%>\" title=\"<%=obj.title%>\" alt=\"<%=obj.title%>\"\/><\/a><\/div><div class=\"item_box <% if(i==1){ %>gray<% } %> mt1\"><h2><a href=\"<%=obj.link%>\" target=\"_blank\"><%=obj.title%><\/a><\/h2><h3><cite>惊喜价：<\/cite><span><%=obj.promo_price%>元\/<%=obj.unit%><\/span><\/h3><h4><cite><% if(obj.thrift){ %><%=obj.thrift%><% }else{ %>市场价<% }%>：<\/cite><span><%=obj.default_price%>元\/<%=obj.unit%><\/span><\/h4><\/div><\/div><% }); %><\/li><\/ul>"
+	}, {
+		"_attributes": {
+			"id": "3039",
+			"title": "商品模块13",
+			"group": "家居就类",
+			"disNum": 1,
+			"autolist": "1",
+			"style": [{
+				"name": "字体大小",
+				"selector": "#[^repId] a",
+				"property": "font-size",
+				"value": "14px"
+			}, {
+				"name": "字体粗细",
+				"selector": "#[^repId] a",
+				"property": "font-weight",
+				"value": ["正常:normal", "粗体:bold", "更粗:bolder"]
+			}, {
+				"name": "字体颜色",
+				"selector": "#[^repId] a",
+				"property": "color",
+				"value": "#000000"
+			}, {
+				"name": "字体下划线",
+				"selector": "#[^repId] a",
+				"property": "text-decoration",
+				"value": ["有:underline", "无:none"]
+			}],
+			"custom": []
+		},
+		"template": "<div class=\"item_box_a\"><% _.each(data, function(obj,i) { %><p class=\"infor\"><%=obj.intro%><\/p><div class=\"pro_1\"><div class=\"item_box\"><h2><a href=\"<%=obj.link%>\" target=\"_blank\"><%=obj.title%><\/a><\/h2><h4><cite><% if(obj.thrift){ %><%=obj.thrift%><% }else{ %>市场价<% }%>：<\/cite><span><%=obj.default_price%>元\/<%=obj.unit%><\/span><\/h4><h3><cite>惊喜价：<\/cite><span><%=obj.promo_price%>元\/<%=obj.unit%><\/span><\/h3><\/div><div class=\"img\"><a href=\"<%=obj.link%>\" target=\"_blank\"><img src=\"<%=obj.logo_m%>\" title=\"<%=obj.title%>\" alt=\"<%=obj.title%>\"\/><\/a><\/div><\/div><% }); %><\/div>"
+	}, {
+		"_attributes": {
+			"id": "3040",
+			"title": "商品模块14",
+			"group": "家居就类",
+			"disNum": 4,
+			"autolist": "1",
+			"style": [{
+				"name": "字体大小",
+				"selector": "#[^repId] a",
+				"property": "font-size",
+				"value": "14px"
+			}, {
+				"name": "字体粗细",
+				"selector": "#[^repId] a",
+				"property": "font-weight",
+				"value": ["正常:normal", "粗体:bold", "更粗:bolder"]
+			}, {
+				"name": "字体颜色",
+				"selector": "#[^repId] a",
+				"property": "color",
+				"value": "#000000"
+			}, {
+				"name": "字体下划线",
+				"selector": "#[^repId] a",
+				"property": "text-decoration",
+				"value": ["有:underline", "无:none"]
+			}],
+			"custom": []
+		},
+		"template": "<div class=\"item_box_a\"><ul class=\"pro_2\"><% _.each(data, function(obj,i) { %><li><div class=\"img\"><a href=\"<%=obj.link%>\" target=\"_blank\"><img src=\"<%=obj.logo_s%>\" title=\"<%=obj.title%>\" alt=\"<%=obj.title%>\"\/><\/a><\/div><div class=\"item_box\"><h2><a href=\"<%=obj.link%>\" target=\"_blank\"><%=obj.title%><\/a><\/h2><h3><cite><% if(obj.thrift){ %><%=obj.thrift%><% }else{ %>市场价<% }%>：<\/cite><span><%=obj.default_price%><\/span>　　<cite>惊喜价：<\/cite><span><%=obj.promo_price%><\/span><\/h3><\/div><\/li><% }); %><\/ul><\/div>"
+	}, {
+		"_attributes": {
+			"id": "3041",
+			"title": "导航类2",
+			"group": "家居就类",
+			"disNum": 7,
+			"autolist": "1",
+			"style": [{
+				"name": "按钮宽度",
+				"selector": "#[^repId] a",
+				"property": "width",
+				"value": "80px"
+			}, {
+				"name": "按钮高度",
+				"selector": "#[^repId] a",
+				"property": "height",
+				"value": "50px"
+			}, {
+				"name": "按钮行高",
+				"selector": "#[^repId] a",
+				"property": "line-height",
+				"value": "50px"
+			}, {
+				"name": "间距margin",
+				"selector": "#[^repId] a",
+				"property": "margin",
+				"value": "0 30px 0 0"
+			}, {
+				"name": "大背景",
+				"selector": "#[^repId] .fd_link_h",
+				"property": "background-image",
+				"value": "默认"
+			}, {
+				"name": "按钮背景",
+				"selector": "#[^repId] a",
+				"property": "background-image",
+				"value": "默认"
+			}, {
+				"name": "字体大小",
+				"selector": "#[^repId] a",
+				"property": "font-size",
+				"value": "14px"
+			}, {
+				"name": "字体粗细",
+				"selector": "#[^repId] a",
+				"property": "font-weight",
+				"value": ["正常:normal", "粗体:bold", "更粗:bolder"]
+			}, {
+				"name": "字体颜色",
+				"selector": "#[^repId] a",
+				"property": "color",
+				"value": "#000000"
+			}, {
+				"name": "字体下划线",
+				"selector": "#[^repId] a",
+				"property": "text-decoration",
+				"value": ["有:underline", "无:none"]
+			}],
+			"custom": []
+		},
+		"template": "<div class=\"fd_link_h\"><% _.each(data, function(obj,i) { %><a href=\"<%=obj.anchor%>\" target=\"_blank\"><%=obj.title%><\/a><% }); %><\/div>"
+	}, {
+		"_attributes": {
+			"id": "3043",
+			"title": "家居-焦点图类-大图",
+			"group": "家居就类",
+			"disNum": 1,
+			"autolist": "1",
+			"style": [{
+				"name": "宽度",
+				"selector": "#[^repId] .sl3_leftJd",
+				"property": "width",
+				"value": "447px"
+			}, {
+				"name": "高度",
+				"selector": "#[^repId] .sl3_leftJd",
+				"property": "height",
+				"value": "349px"
+			}, {
+				"name": "间距margin",
+				"selector": "#[^repId] .sl3_leftJd",
+				"property": "margin",
+				"value": "0px"
+			}, {
+				"name": "内填充padding",
+				"selector": "#[^repId] .sl3_leftJd",
+				"property": "padding",
+				"value": "15px 2px 20px 40px"
+			}, {
+				"name": "字体大小",
+				"selector": "#[^repId] a",
+				"property": "font-size",
+				"value": "14px"
+			}, {
+				"name": "字体粗细",
+				"selector": "#[^repId] a",
+				"property": "font-weight",
+				"value": ["正常:normal", "粗体:bold", "更粗:bolder"]
+			}, {
+				"name": "字体颜色",
+				"selector": "#[^repId] a",
+				"property": "color",
+				"value": "#000000"
+			}, {
+				"name": "字体下划线",
+				"selector": "#[^repId] a",
+				"property": "text-decoration",
+				"value": ["有:underline", "无:none"]
+			}],
+			"custom": [{
+				"name": "图片文字位置",
+				"mark": "[^pic_position]",
+				"value": ["左边:left", "右边:right"]
+			}, {
+				"name": "图片文字位置值",
+				"mark": "[^pic_position_val]",
+				"value": "45px;"
+			}, {
+				"name": "文字行高",
+				"mark": "[^text_height]",
+				"value": "30px"
+			}, {
+				"name": "浮动",
+				"mark": "[^T3_float]",
+				"value": ["左:left", "右:right", "无:none"]
+			}]
+		},
+		"template": "<div class=\"sl3_leftJd\"><% _.each(data, function(obj,i) {%><a href=\"<%=obj.link%>\"><img src=\"<%=obj.logo_m%>\" alt=\"<%=obj.title%>\" title=\"<%=obj.title%>\"\/><\/a><p><\/p><span style=\"line-height:[^text_height];[^pic_position]:[^pic_position_val];\"><\/span><% }); %><\/div>"
+	}, {
+		"_attributes": {
+			"id": "3044",
+			"title": "家居-焦点图类",
+			"group": "家居就类",
+			"disNum": 4,
+			"autolist": "1",
+			"style": [{
+				"name": "宽度",
+				"selector": "#[^repId] img",
+				"property": "width",
+				"value": "115px"
+			}, {
+				"name": "高度",
+				"selector": "#[^repId] img",
+				"property": "height",
+				"value": "85px"
+			}, {
+				"name": "间距margin",
+				"selector": "#[^repId] a",
+				"property": "margin",
+				"value": "0 30px 0 0"
+			}, {
+				"name": "字体大小",
+				"selector": "#[^repId] a",
+				"property": "font-size",
+				"value": "14px"
+			}, {
+				"name": "字体粗细",
+				"selector": "#[^repId] a",
+				"property": "font-weight",
+				"value": ["正常:normal", "粗体:bold", "更粗:bolder"]
+			}, {
+				"name": "字体颜色",
+				"selector": "#[^repId] a",
+				"property": "color",
+				"value": "#000000"
+			}, {
+				"name": "字体下划线",
+				"selector": "#[^repId] a",
+				"property": "text-decoration",
+				"value": ["有:underline", "无:none"]
+			}],
+			"custom": [{
+				"name": "当前hover图片",
+				"mark": "[^jj_hover_pic]",
+				"value": "默认"
+			}]
+		},
+		"template": "<ul class=\"sl3_rightPic jjjd_pic\" hoverbg=\"[^jj_hover_pic]\"><% _.each(data, function(obj,i) {%><li><a href=\"<%=obj.link%>\"><img src=\"<%=obj.logo_m%>\" alt=\"<%=obj.title%>\" title=\"<%=obj.title%>\" data-info=\"<%=obj.goods_info%>\"\/><span><\/span><\/a><\/li><% });%><\/ul>"
+	}, {
+		"_attributes": {
+			"id": "61",
+			"title": "滚动图",
+			"group": "其它类",
+			"disNum": 4,
+			"autolist": "1",
+			"style": [{
+				"name": "整体宽度",
+				"selector": "#[^repId] .show_scroll",
+				"property": "width",
+				"value": "700px"
+			}, {
+				"name": "整体高度",
+				"selector": "#[^repId] .show_scroll .con",
+				"property": "height",
+				"value": "175px"
+			}, {
+				"name": "图片宽度",
+				"selector": "#[^repId] .box",
+				"property": "width",
+				"value": "108px"
+			}, {
+				"name": "图片高度",
+				"selector": "#[^repId] .box img",
+				"property": "height",
+				"value": "142px"
+			}],
+			"custom": []
+		},
+		"template": "<style> #[^repId] .show_scroll {width:700px;position: relative;} #[^repId] .show_scroll .con {height:175px;width: 90%;overflow: hidden;float: left;position: relative;} #[^repId] .items {position: absolute;width: 20000em;} #[^repId] .box {width: 108px; float: left; display: inline; margin: 10px; text-align: center;overflow: hidden; } #[^repId] .box img { float: left;width: 100%;} #[^repId] .box p { float: left; width:100%; height: 20px; line-height: 20px; text-align: center; padding-top: 6px; white-space: nowrap; overflow: hidden; } #[^repId] .left_scroll { background-position: -742px -52px; } #[^repId] .right_scroll { background-position: -773px -52px; } #[^repId] .left_scroll,.right_scroll { float: left; margin-top: 50px; width: 30px; height: 80px; text-indent: -99999px; overflow: hidden; cursor: pointer; background-image: url(http:\/\/i2.sinaimg.cn\/hs\/ouyi\/11Q1\/images\/bg02.png); } <\/style><div class=\"show_scroll\"> <div class=\"left_scroll\" id=\"[^repId]_up\">上一张<\/div> <div id=\"scrollable_[^repId]\" class=\"con\"><div class=\"items\" style=\"left: 0px; \"> <% _.each(data, function(obj,i) {%> <div class=\"box\"><a href=\"<%=obj.link%>\"><img alt=\"<%= obj.title %>\" src=\"<%= obj.image %>\"><\/a><p><a href=\"<%=obj.link%>\"><%= obj.title %><\/a><\/p><\/div> <% }); %> <\/div><\/div><div class=\"right_scroll\" id=\"[^repId]_down\">下一张<\/div><\/div> <script> dj.get('tool.scrollable').ready(function () {$('#scrollable_[^repId]').scrollable({ next : '#[^repId]_down', prev : '#[^repId]_up', autoplay : true, interval : 5000}) })<\/script>"
+	}],
+	"upload_url": "http:\/\/photo.house.sina.com.cn\/resource\/resource\/upload",
+	"upload_key": "",
+	"upload_m_key": "",
+	"autoapis": [{
+		"name": "正文页",
+		"url": "http:\/\/pub.house.sina.com.cn\/api\/document\/search",
+		"property": [{
+			"name": "作者名称",
+			"value": ""
+		}, {
+			"name": "标题",
+			"value": ""
+		}]
+	}, {
+		"name": "专题页",
+		"url": "http:\/\/pub.house.sina.com.cn\/api\/document\/search",
+		"property": [{
+			"name": "所属专题",
+			"value": ""
+		}, {
+			"name": "关键字",
+			"value": "哈哈"
+		}]
+	}, {
+		"name": "家居就商品",
+		"url": "http:\/\/www.jiaju.com\/api\/topic\/tgoods\/",
+		"property": [{
+			"name": "专题ID",
+			"field": "tid"
+		}, {
+			"name": "栏目ID",
+			"field": "sid"
+		}]
+	}]
+}

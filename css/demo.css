@@ -1,0 +1,298 @@
+@charset "utf-8";
+/*RESET1111
+-------------------------------------------------------------- */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, hr, pre, code, form, input, button, fieldset, textarea, p, blockquote, th, td { margin: 0; padding: 0 }
+table { border-collapse: collapse; border-spacing: 0 }
+fieldset, img { border: 0 }
+address, caption, cite, code, dfn, em, var { font-style: normal; font-weight: normal }
+ol, ul { list-style: none }
+del, ins { text-decoration: none }
+caption, th { text-align: left }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: normal }
+input, button, textarea, select { font-size: 100% }
+q:before, q:after { content: '' }
+addr, acronym { border: 0; font-variant: normal }
+sup, sub { vertical-align: baseline }
+select,input{vertical-align:middle;}
+/*CLEARFIX
+-------------------------------------------------------------- */
+/* For modern browsers */
+.clearfix:before,
+.clearfix:after { content:""; display:table;}
+.clearfix:after { clear:both;}
+/* For IE 6/7 (trigger hasLayout) */
+.clearfix { zoom:1;}
+#topWrap{zoom:1;overflow:visible;}
+/*Page start
+-------------------------------------------------------------- */
+/* 默认插入横切的样式1 st  */
+.partBox { }
+/* 默认插入横切的样式1 end  */
+/* 横切红色编辑框父级 st */
+.toolWraper{position:relative;width:0;height:0;overflow:visible; z-index:100;}/*z index was 10; too low; contents exceeds it*/
+/* 横切红色编辑框 */
+.partTool {display:none;border: 2px solid #FF0000;left: -2px;position: absolute;top: -2px;width: 100%;z-index: 100;}
+.partTool p {background: none repeat scroll 0 0 #FF0000;color: #FFFFFF;padding: 3px 0;position: absolute;right: -20px;text-align: center;top: -2px;width: 20px;z-index:100;}
+/* 横切红色编辑框父级 end */
+/* #Banner_box .config  part.js 366 行 */
+.partBox .icon{	height:20px; display:block; width:20px;	line-height:20px; cursor: pointer; text-indent:-9999px;	background:url(icon_bg.png) top left no-repeat;}
+.partBox .delete{ background-position: -116px -28px;}
+.partBox .config{ background-position:-115px -83px;}
+.partBox .up{ background-position:-115px -49px;}
+.partBox .down{	background-position:-115px -66px;}
+.partBox .cut{ background-position:-115px -166px;}
+.partBox .copy{	background-position:-115px -187px;}
+.partBox .paste{ background-position:-115px -232px;}
+/* 模块下面的 添加 属性 两个按钮 */
+.tools {position:relative;z-index:130}/*@asg 4.28*/
+.tools .add,.tools .edit{ display:block; float:left; background:url(icon_bg.png) top left no-repeat; padding-left: 22px; width: 31px; height: 22px; line-height: 22px; cursor:pointer; color:black; margin-right:5px;}
+.tools .add{ background-position: 0 -62px;}
+.tools .edit{ background-position: -53px -62px;}
+/*Styles for toolbar
+-------------------------------------------------------------- */
+/* 侧边栏工具条 st */
+#TopTool .TopToolCont input{ background:url(icon_bg.png) no-repeat;}
+#TopTool h2{background:url(line_bg.png) repeat-x scroll 0 0 transparent; }
+#TopTool{position:fixed;top:0;width:100%;left:0;z-index:999; background:#f4f4f4; border:1px solid #ccc;}
+#TopTool h2{display:none; height:26px; line-height:26px;}
+#TopTool.ontop .TopToolCont{cursor:move;padding:3px 0;height:30px;width:100%;z-index:3;position:absolute;left:0;top:0;text-align:center;background-color:#F4F4F4;border-bottom:1px solid #ccc;}
+#TopTool.ontop .TopToolCont input{cursor:pointer;width:101px;height:31px;font-size:14px; background-position:0 0;color:#000;text-align:center;font-weight:bold;border:none;margin:0 2px;}
+#TopTool.ontop .TopToolBg{width:100%;height:40px;z-index:2;position:absolute;}
+#TopTool .modeFull{background-position:0 -31px!important;}
+#TopTool .modeData{background-position:0 -84px!important;}
+#TopTool.flap{position:fixed;top:6px;left:6px;z-index:210;height:550px;width:130px;}
+#TopTool.flap h2{padding-left:10px;cursor:move;position:absolute;width:120px;z-index:3;display:block;  border:1px solid #4584b4; border-bottom:1px solid #226597; color:#fff; font-weight:bold;}
+#TopTool.flap .TopToolCont{ padding:10px 0 0;width:100%;position:absolute;left:0;top:26px;text-align:center;z-index:2;}
+#TopTool.flap .TopToolCont input{width:100px;height:31px;font-size:14px; background-position:0 0; color:#000;text-align:center;font-weight:bold;border:none;display:block;margin:0px auto 10px;}
+#TopTool.flap .TopToolCont input:hover{	cursor:pointer; color:red;}
+#TopTool.flap .TopToolBg{width:100%;height:365px;z-index:1; position:absolute; border:1px solid #b5b5b5}
+#TopTool.flap iframe{width:100%;height:100%;z-index:1;}
+/* 侧边栏工具条 end */
+/* row  block blkBox 行 列 组件盒子 */
+.block {min-height: 20px; width: 100%; margin-bottom:10px}
+.blkBox {width: 100%;/*overflow: hidden;*/}
+.block .toobar{display:none;position:absolute;left:0;bottom:0;width:100%;z-index:120;border:1px solid #006600;}
+/* 插入组件时候 的右上角的 两个按钮 一个添加 一个退出*/
+/* 组件的属性操作 toobar_content */
+/* #NavTool 顶部导航的操作按钮  */
+.block .toobar .btn, 
+.toobar_content .btn,
+#NavTool span{float:right;padding:1px;cursor:pointer;background:url(icon_bg.png) top left no-repeat; text-indent:-9999px; 	height:22px;display:block;width:20px;line-height:20px}/*@asg 10.23 remove:background-color:#060;*/
+.block .toobar .btn{background-color:#006600;}
+.toobar_content .btn{background-color:#0000FF;}
+/* 针对ie写的一个遮罩 */
+.tool_cover{left:0;top:0;width:100%;z-index:115;height:100%;display:block;position:absolute;background-color:White;opacity:0.01;filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0); -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=0)"}/*for the event cover of block or content for ie6,ie7*/
+
+/* toobar1 容器的编辑  toobar2 容器下面的 两个按钮 添加 属性 */
+.block .toobar1{right:0;top:0;width:100%;height:100%;}
+.block .toobar1 .move , .toobar_content div.content_move{cursor:move;background-position: -115px -125px;}
+.block .toobar1 .dele , .toobar_content div.content_delete{background-position: -116px -28px;}
+.block .toobar1 .prop , .toobar_content div.content_prop,#NavTool .ico_attrib{background-position: -115px -83px;}
+.block .toobar1 .type , .toobar_content div.content_type{background-position: -113px -144px;}
+.block .toobar1 .edit , .toobar_content div.content_data, #NavTool .ico_data{background-position: -115px -106px;}
+.block .toobar1 .cut , .toobar_content div.content_cut{background-position:-115px -166px;}
+.block .toobar1 .copy , .toobar_content div.content_copy{background-position:-115px -187px;}
+.block .toobar1 .paste , .toobar_content div.content_paste{background-position:-115px -232px;}
+.block .toobar2 {display:none; width:100%}/*@asg absolute positioning for narrow Row */
+.block .toobar2 .btn{padding:0px;padding-left: 22px;width: 31px;height: 22px;line-height: 22px;cursor:pointer;color:black;text-indent:0px;margin-right:5px;border:0px;margin-top:3px;}
+.block .toobar2 .add{background-position: 0 -62px; }
+.block .toobar2 .quit{background-position: -53px -62px; }
+/* spMore Block.js 220 行*/
+.block .banner{margin:1px}
+.block .banner .spMore{float:right; width:40px}
+.block .content_holder{margin:1px;background-color:White;}
+/*lly delete---.block .content{border:solid 1px yellow}*/
+.block .content .toobar_content{border:1px solid #0000FF;display:none;position:absolute;left:0;top:0;width:100%;height:100%;z-index:110;text-align:right;}
+/*@asg 4.28; for ie6 fix: use css to hide buttons in content_tool*/
+.data .toobar_content .btn{display:none;}
+.data .toobar_content .content_data{display:block;}
+.full .toobar_content .btn{display:block;}
+/*lly delete for js
+.editing .content{position:relative}
+.editing .toobar{width:auto;height:auto;} 
+.editing .content:hover{border-color: #dbdbdb;}
+.editing .content:hover .toobar_content{display:block}
+*/
+.block .content{clear:both;}
+/*.block .content .contentholder{overflow:hidden}@asg 10.23 fix content tool height issue*/
+.editing .toobar{width:auto;height:auto;border:0 none;} 
+.editing .blkBox{border-bottom:35px solid #060}/*@asg 11.13 move button to bottom*/
+/*a*/
+.block .btnOk{text-align:center;width:100%; border:solid 1px grey;margin:0 auto; cursor:pointer}
+/*Style for pretty buttons
+-------------------------------------------------------------- */
+/* delete by lly
+#NavCont{position:relative;}
+#NavMenu:hover {outline: 1px solid #DBDBDB}
+#NavCont:hover #NavTool{display:block}
+#NavTool{position:absolute;top:-1px;right:-24px;z-index:0;display: none;background:#ff0000;border:1px solid #DBDBDB;}
+#NavTool span{cursor:pointer;text-decoration:none;float:none;display:block;line-height:20px;}
+*/
+/* 下面三行 考虑删除 */
+#NavCont { margin: 0 auto; min-height: 20px; position: relative; width: 950px;}
+#NavTool { display:none; border: 2px solid #FF0000; left: -2px; position: absolute; top: -2px; width: 100%; z-index: 0;}
+#NavTool p { background: none repeat scroll 0 0 #FF0000; color: #FFFFFF; padding: 3px 0; position: absolute; right: -20px; text-align: center; top: -2px; width: 20px;}
+/* icons */
+
+.ico_del, .ico_cont,.ico_barter,.ico_attrib,.ico_up,.ico_down,.ico_data    {float:left;width:20px;height:20px;background:no-repeat 50% 50%;zoom:1;}
+
+.ico_del{background-image:url(http://www.sinaimg.cn/dy/stencil/sysimages/sysimg/ico_01.gif) }
+.ico_cont{background-image:url(http://www.sinaimg.cn/dy/stencil/sysimages/sysimg/ico_02.gif) }
+.ico_barter{background-image:url(http://www.sinaimg.cn/dy/stencil/sysimages/sysimg/ico_03.gif) }
+.ico_attrib{background-image:url(http://www.sinaimg.cn/dy/stencil/sysimages/sysimg/ico_04.gif) }
+.ico_up{background-image:url(http://www.sinaimg.cn/dy/stencil/sysimages/sysimg/ico_05.gif) }
+.ico_down{background-image:url(http://www.sinaimg.cn/dy/stencil/sysimages/sysimg/ico_06.gif) }
+.ico_data{background-image:url(http://www.sinaimg.cn/dy/stencil/sysimages/sysimg/ico_07.gif) }
+.ico_add{padding-left:20px;background:url(http://www.sinaimg.cn/dy/stencil/sysimages/sysimg/ico_08.gif) no-repeat 2px 50%;zoom:1;}
+.ico_return{padding-left:20px;background:url(http://www.sinaimg.cn/dy/stencil/sysimages/sysimg/ico_09.gif) no-repeat 2px 50%;zoom:1;}
+
+/*  */
+/*=pannel=*/
+/*=block select pannel=*/
+#NewBlockList{zoom:1;overflow:auto;padding:0 10px;margin:5px auto 0;position:relative;width:400px;}
+/* pannel.js 380 859 行 */
+/*=block property=*/
+#AW_Cont,#SelectFieldList{zoom:1;overflow:auto;}
+#AW_Cont,#SelectFieldList{ position:relative; padding:10px;overflow:auto;}
+#AW_Cont p,#SelectFieldList p{padding:5px 0 0;}
+#AW_Cont h3,#SelectFieldList h3{font-size: 12px;padding: 10px 0;font-weight:bold;} 
+/* pannel.js 770 行 */
+.add{margin-bottom:10px;overflow:hidden;position:relative;cursor:pointer;zoom:1;}
+/* pannel.js 733 行 */
+/* 编辑弹出层 */
+
+/* 好像是数据的接口的样式 */
+.w1_01 .w1_title{ height: 26px; line-height: 26px; color: white; font-weight: bold; background:url(line_bg.png) repeat-x scroll 0 0 transparent; display:inline-block;}
+.w1_01 .w1_title .w1_name{display:inline-block;font-size:14px;float:left;padding:2px 0 0 20px;line-height:22px;color:#fff;background:url(icon_bg.png) no-repeat;background-position: -120px 10px;}
+
+/* system style select panel*/
+.w_select select{margin:0 10px}
+/*=EditData=*/
+#DataType{padding:5px;line-height:20px;}
+#subList{display:none;}
+#EditDataList{zoom:1;overflow:auto;padding:5px 5px 0;margin:0 0 0;position:relative;}
+.aui_content #dataList .hqsj_ul li.content {background-color:#fff;border-bottom:solid 2px #eef;float:left;padding:2px;*width:100%}
+.aui_content #dataList .hqsj_ul li.content div{float:left;white-space:nowrap;line-height: 25px;vertical-align: top;}
+.aui_content #dataList .hqsj_ul li.content .ico{float:right;display:block}
+
+/* ph 添加组件选项卡 */
+#tablist{ border-bottom:1px solid #c5c7d4;}
+#NewStyleList{overflow:auto;height:580px;}/*@asg 7.5*/
+/* 风格列表 */
+#NewStyleList{zoom:1;padding:10px 0 0;margin-top:5px;}
+#NewStyleList .styleadd{width:196px;float:left;text-align:center;height:300px; margin:10px 10px 0; display:inline;}
+#NewStyleList .styleadd img{ display:inline-block; width:190px; height:250px; border:3px solid #fff;}
+#NewStyleList .styleadd p{line-height:18px;text-align:left;padding-left:10px;color:#333;}
+#NewStyleList .stylecur img{border:3px solid #7ec000;}
+.tab .add{position:relative;}
+.tab .add .overlay{display:none;position:absolute; width:100%;height:100%;background:black;text-align:center;line-height:150px;top:0px;left:0px;opacity:0.7; filter: progid:DXImageTransform.Microsoft.Alpha(opacity=70); -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=70)"; z-index:999}
+.tab .add .overlay h1{font-size:25px;color:#ffffff;}
+
+/* panel基础 */
+.aui_outer td{border-style:none}
+
+.aui_content{line-height:24px; color:#666;padding-left: 20px;}
+.aui_content .p_tit{ font-size:14px; padding:5px 0;}
+.aui_content h3{ padding:15px 0 0 0; text-indent:15px; color: #35a5e5;text-shadow:0 1px 10px #ccc; font-weight:bold;}
+.aui_content p{padding:5px 0;}
+.aui_content p,.aui_content  label{font-weight: 700;font-size: 12px;font-family: '微软雅黑';}
+.aui_content p label{display: inline-block;width: 80px;}
+.aui_content p input{width: 270px;height:18px;padding:2px;border:1px solid #b5b8c8;}
+.aui_content input[type=text]{width: 250px;margin: 0px 0px 6px 10px;padding: 5px;height: 16px;line-height: 16px;border: 1px #ccc solid;
+    -webkit-border-radius:3px;-moz-border-radius:3px;transition: all 0.30s ease-in-out;-webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;outline:none;}
+.aui_content input[type=text]:hover{border: 1px #35a5e5 solid;color: #35a5e5;text-shadow:0 1px 10px #ccc;}
+.aui_content input[type=text]:focus{transition: all 0.30s ease-in-out;-webkit-transition: all 0.30s ease-in-out;-moz-transition: all 0.30s ease-in-out;border: #35a5e5 1px solid;
+    -webkit-border-radius:3px;-moz-border-radius:3px;}
+.aui_content input[type=text] .we1_txt{}
+.aui_content input[type=text] .we2_txt{ float:left; width:150px; height:20px; margin-right:20px; border:1px solid #b5b8c8; background-color:#fff;}
+.aui_content input[type=button] {margin-left:16px;}
+.aui_content select{ width: 260px;height: 28px;-webkit-border-radius:3px;-moz-border-radius:3px;transition: all 0.30s ease-in-out;-webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;cursor: pointer; border: 1px #ccc solid;margin-left: 10px;margin-bottom: 10px;}
+.aui_content select:focus{outline: none;}
+.aui_content select option{padding: 10px 10px;height: 20px;line-height: 20px;cursor: pointer;border: 1px solid #35a5e5;}
+.aui_content .x-form-item-body{position:relative;float:left;padding-left: 30px;}
+.aui_content .x-form-item-body a{ white-space:nowrap; margin-right:10px; color:#f26122;}
+.aui_content .x-form-item-body span{ white-space:nowrap; color:#666; margin-right:10px;}
+.aui_content .x-form-item-body img{ float:left; width:74px; height:74px; vertical-align:top; background-color:#ccc;}
+.aui_content .x-form-item-body .x-form-item-checkboxWrapper{ margin-right:20px; white-space:nowrap;}
+.aui_content .x-form-item-body .x-form-item-checkboxWrapper img{ clear:both; float:none; display:block; width:74px; height:74px; vertical-align:top; background-color:#ccc;}
+.aui_content .x-form-item-body .x-form-item-checkboxWrapper input{ vertical-align:middle;}
+.aui_content .x-form-item-body .x-form-item-checkboxWrapper label{ white-space:nowrap;}
+
+.aui_content .x-panel-body{overflow:hidden;position:relative;font-size:12px;}
+.aui_content .x-form-item{display:block;zoom:1;position:relative;margin-bottom:5px;}
+.aui_content .x-form-item-label{float:left; display:inline!important;z-index:2;position:relative;font-size:12px;user-select:none;-o-user-select:none;-ms-user-select:none;-moz-user-select:-moz-none;-webkit-user-select:none;cursor:default}
+.aui_content .x-form-item-label{ position:relative; z-index:10; clear:both; display:block; width:100%;color:#333;padding-left:10px;}
+.aui_content .x-form-field,.x-form-display-field{float:left;margin:0 0 0 0;font:normal 12px tahoma, arial, verdana, sans-serif;color:black}
+.aui_content .x-form-text,textarea.x-form-field{padding:1px 3px;background:repeat-x 0 0;border:1px solid;background-color:white;border-color:#b5b8c8}
+.aui_content .x-form-text{height:18px;line-height:18px;vertical-align:middle}
+.aui_content .x-form-field-label{height:18px;line-height:18px;vertical-align:middle;color:Gray;font:normal 10px tahoma, arial, verdana, sans-serif;}
+.aui_content .x-form-field-link{height:18px;line-height:18px;vertical-align:middle}
+.dragWin .ico_close{ background: url(http://cache.house.sina.com.cn/esalesleju/module/base/icon_bg.png) repeat scroll right -7px transparent; cursor: pointer; height: 26px; position: absolute; right: 3px; top: 0; width: 15px;}
+.dragWin .confirm{ width:73px; height:24px; border:0; cursor:pointer; background:url(http://cache.house.sina.com.cn/esalesleju/module/base/icon_01.png) left -36px no-repeat;}
+.dragWin .tohtml{ width:101px; height:24px; border:0; cursor:pointer; background:url(http://cache.house.sina.com.cn/esalesleju/module/base/icon_01.png) -74px -36px no-repeat;}/* 转化为HTML */
+
+
+
+.aui_content #dataList li {clear:both;}
+.aui_content #dataList {position:relative;font: 12px tahoma,arial,verdana,sans-serif;padding:5px;}
+.aui_content #dataList h2.tab { position:relative; bottom:-1px; z-index:10; float:left; display:inline; padding:2px 10px 1px; line-height:22px; cursor:pointer;}
+.aui_content #dataList h2.active { border-top:2px solid #ff6600;}
+.aui_content #dataList .styleadd{float:left; width:210px;text-align:center;}
+.aui_content #dataList .styleadd img{cursor:pointer;}
+.aui_content #dataList table th, table td {border: 1px solid #D2D2D2;height: 26px;line-height: 26px;text-align: center;}
+.aui_content #dataList table th {background-color: #F4F8FB;}
+
+
+/*获取数据*/
+.aui_content #dataList .hqsj{padding: 0 20px;}
+.aui_content #dataList .hqsj_an{width: 300px; margin: 12px 0;}
+.aui_content #dataList .hqsj_an input{height: 30px; width: 200px;  box-shadow:2px 2px 5px #ccc;}
+.aui_content #dataList .hqsj_ul{margin-left: 10px;}
+.aui_content #dataList .hqsj_ul li {padding: 0;}
+.aui_content #dataList .hqsj_ul li input{width: 150px;margin-left: 5px;margin-right: 20px;}
+.ico_add{margin-left:30px;}
+/* add content */
+#NewCont{position:absolute;width:980px;display:none;z-index:10001;background:#fff;text-align:left;}
+#NewCont .w_cont_bg{overflow:hidden;zoom:1;}
+#NewContList{zoom:1;overflow:auto;padding:10px 0 0;margin:5px 0 0;position:relative;}
+#NewContList .add{border: 1px solid #ccc;-webkit-border-radius:3px;-moz-border-radius:3px;transition: all 0.30s ease-in-out;-webkit-transition: all 0.30s ease-in-out;-moz-transition: all 0.30s ease-in-out;outline:none;margin: 0 15px;padding: 0 15px;}
+#NewContList .add:hover{border: 1px #35a5e5 solid;}
+/*Tab*/
+#tablist h2{padding: 0px;width: 100px;height: 30px;border-right: 1px solid #ccc;border-left: 1px solid #ccc;border-top:2px solid #35a5e5;}
+#tablist h2.active{width: 100px;color: #FF6600;}
+.content_select_c3 li{font-size: 12px;}
+/*插入横切*/
+.crhq{display: inline-block;padding: 30px 0 10px 20px;}
+.crhq input{padding:0 0 0 10px;width: 20px;height: 20px;}
+/*other libin*/
+/*获取数据*/
+.ck_nav{margin-bottom: 10px;overflow: hidden;position: relative;cursor: pointer;zoom: 1;cursor: pointer;}
+.ck_nav div{display: block;}
+.nav .w_title {height: 25px;background: #eaf1f5 url(http://www.sinaimg.cn/dy/deco/2008/0414/images25/s01_mj_004.gif) repeat-x 0 -25px;
+    border: 1px solid #aec6dd;border-bottom: none;color: #000;}
+.nav .w_title .w_name{font-size: 14px;float: left;padding: 2px 0 0 18px;line-height: 23px;background: url(http://www.sinaimg.cn/dy/deco/2008/0414/images25/s01_mj_004.gif) no-repeat 8px 0;}
+.nav .w_title .w_more{float: right;overflow: hidden;padding: 2px 10px 0 0;text-align: center;line-height: 23px;font-size: 12px;font-weight: normal;}
+.ck_nav{margin-bottom: 10px;overflow: hidden;position: relative;cursor: pointer;zoom: 1;}
+.nav .w_title {height: 25px;background: #eaf1f5 url(http://www.sinaimg.cn/dy/deco/2008/0414/images25/s01_mj_004.gif) repeat-x 0 -25px;border: 1px solid #aec6dd;border-bottom: none;color: #000;}
+.nav .w_cont {border: 1px solid #aec6dd;border-top: none;border-bottom: none;background: #fff;zoom: 1;}
+.nav .w_cont .w_cont_bg {padding: 0 4px 0;}
+.nav .w_bot {border: 1px solid #aec6dd;border-top: none;background: #fff;height: 4px;overflow: hidden;}
+
+
+
+/* 拖拽CSS */
+.dropbox{padding-top:15px}
+.dragging{ position: absolute;opacity: 0.8;z-index: 999 ;filter:alpha(opacity=80)}
+/*footer @asg 2013.4.15
+.footer{color:#000;}
+.footer a:link,.footer a:visited{color:#000; text-decoration:none}
+.footer a:hover{color:#000;} */
+
+/* 没有组件的时候的空白区域高度 */
+.contentPlaceHolder{ height:200px; text-align:center; line-height:200px; font-size:36px;}
+
+
+
+/*改css一定要好好写！不要改东西直接在后面随便添加，遵守命名规范到前面去改，加注释块，去掉的部分随手清理。将来文件无效内容积攒起来，根本没法维护。*/
